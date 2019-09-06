@@ -1,0 +1,12 @@
+api/dist/**/*
+api/dist
+api/node_modules/**/*
+api/node_modules/
+
+api/build/**/*
+api/build
+ui/node_modules/**/*
+ui/node_modules/
+
+data/**/*
+data
