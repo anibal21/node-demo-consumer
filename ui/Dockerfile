@@ -1,6 +1,7 @@
 FROM node:8 as react-build
 COPY . ./app/
 WORKDIR /app
+RUN npm install
 RUN npm run build
 
 # Stage 2 - the production environment

@@ -1,5 +1,4 @@
-import { PORT, SWAGGER_PATH } from "babel-dotenv";
-import { URL } from "url";
+import { PORT, SWAGGER_PATH, HN_URL } from "babel-dotenv";
 import axios from "axios";
 import { getTime } from "date-fns";
 import Post from "./models/Post";
@@ -34,29 +33,38 @@ app.use(function(err, req, res, next) {
 
 function loadPosts() {
   setTimeout(function() {
-    const url = "https://hn.algolia.com/api/v1/search_by_date?query=nodejs";
-    axios(url)
+    axios(HN_URL)
       .then(res => {
         const step = getTime(new Date());
-        const posts = res.data.hits.map((item, index) => ({
-          id: !item.story_id ? step + index : step + item.story_id,
-          title: !item.title ? item.story_title : item.title,
-          created_at: !item.created_at_i
-            ? getTime(new Date())
-            : item.created_at_i,
-          author: !item.author ? "anonymous" : item.author,
-          url: !item.url ? item.story_url : item.url,
-          step: step
-        }));
-        posts.map(item => {
-          Post.create(item)
-            .then(fund => {})
-            .catch(reason => console.log(reason));
-        });
+        try {
+          Post.find({}, { objectID: true, _id: false }).exec((err, docs) => {
+            if (err) console.log(e);
+            else {
+              const ids = docs.map(item => item.objectID);
+              const posts = res.data.hits
+                .filter((item, index) => !ids.includes(parseInt(item.objectID)))
+                .map((item, index) => ({
+                  objectID: !item.objectID ? "" + step + index : item.objectID,
+                  title: !item.title ? item.story_title : item.title,
+                  deleted: false,
+                  created_at: !item.created_at_i
+                    ? getTime(new Date())
+                    : item.created_at_i,
+                  author: !item.author ? "anonymous" : item.author,
+                  url: !item.url ? item.story_url : item.url,
+                  step: step
+                }));
+
+              Post.insertMany(posts);
+            }
+          });
+        } catch (e) {
+          console.log(e);
+        }
       })
       .catch(reason => console.log(reason));
     loadPosts();
-  }, 10000);
+  }, 3600000);
 }
 
 loadPosts();

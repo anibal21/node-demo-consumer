@@ -1,13 +1,16 @@
 import mongoose from "mongoose";
 
 const postSchema = new mongoose.Schema({
-  id: {
+  objectID: {
     type: Number,
     unique: true,
     required: true
   },
   title: {
     type: String
+  },
+  deleted: {
+    type: Boolean
   },
   created_at: {
     type: Number
