@@ -1,4 +1,4 @@
-import { PORT, SWAGGER_PATH, HN_URL } from "babel-dotenv";
+import { PORT, HN_URL } from "babel-dotenv";
 import axios from "axios";
 import { getTime } from "date-fns";
 import Post from "./models/Post";

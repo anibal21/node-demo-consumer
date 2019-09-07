@@ -50,14 +50,18 @@ postRouter.post("/refresh", function(req, res, next) {
 });
 
 postRouter.delete("/:id", function(req, res, next) {
-  //Get the id
-  //validate well the deletion if not responde http error
-  /*Post.updateOne({ objectID: 20905436 }, { $set: { deleted: true } })
-    .then(docs => {
-      res.status(200).send();
-    })
-    .catch(err => res.status(403).send({ error: err }));*/
-  res.status(200).send();
+  !req.params.id
+    ? res.status(403).send({ error: "No hay parametros" })
+    : Post.updateOne(
+        { objectID: String(req.params.id) },
+        { $set: { deleted: true } }
+      )
+        .then(docs =>
+          docs.nModified > 0
+            ? res.status(200).send()
+            : res.status(403).send({ error: err })
+        )
+        .catch(err => res.status(403).send({ error: "Error al modificar" }));
 });
 
 export { postRouter };
