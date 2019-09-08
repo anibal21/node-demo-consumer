@@ -1,20 +1,15 @@
 import React from 'react'
 import { render } from 'react-dom'
-import { Provider } from 'react-redux'
-//import { BrowserRouter } from 'react-router-dom'
 
 import { ThemeProvider } from '@material-ui/styles'
 
 import myTheme from './config/styles/theme'
-import store from './store/store'
 
 import Layout from './common/hoc/Layout/Layout'
 
 const app = (
     <ThemeProvider theme={myTheme}>
-        <Provider store={store}>
-            <Layout />
-        </Provider>
+        <Layout />
     </ThemeProvider>
 )
 

@@ -1,904 +1,746 @@
 {
-    "hits": [
-        {
-            "created_at": "2019-09-07T13:07:26.000Z",
-            "title": null,
-            "url": null,
-            "author": "rolltiide",
-            "points": null,
-            "story_text": null,
-            "comment_text": "Or like SVG with tappable nodes via D3???\u003cp\u003eThis is a design decision that was neglected, plain and simple",
-            "num_comments": null,
-            "story_id": 20899054,
-            "story_title": "The NYC Subway replaced printed maps with low-resolution digital maps",
-            "story_url": "https://twitter.com/NYCTSubway/status/1166711446769676289",
-            "parent_id": 20903202,
-            "created_at_i": 1567861646,
-            "relevancy_score": 9043,
-            "_tags": [
-                "comment",
-                "author_rolltiide",
-                "story_20899054"
-            ],
-            "objectID": "20903530",
-            "_highlightResult": {
-                "author": {
-                    "value": "rolltiide",
-                    "matchLevel": "none",
-                    "matchedWords": []
-                },
-                "comment_text": {
-                    "value": "Or like SVG with tappable \u003cem\u003enodes\u003c/em\u003e via D3???\u003cp\u003eThis is a design decision that was neglected, plain and simple",
-                    "matchLevel": "full",
-                    "fullyHighlighted": false,
-                    "matchedWords": [
-                        "nodejs"
-                    ]
-                },
-                "story_title": {
-                    "value": "The NYC Subway replaced printed maps with low-resolution digital maps",
-                    "matchLevel": "none",
-                    "matchedWords": []
-                },
-                "story_url": {
-                    "value": "https://twitter.com/NYCTSubway/status/1166711446769676289",
-                    "matchLevel": "none",
-                    "matchedWords": []
-                }
-            }
-        },
-        {
-            "created_at": "2019-09-07T12:23:47.000Z",
-            "title": null,
-            "url": null,
-            "author": "mensetmanusman",
-            "points": null,
-            "story_text": null,
-            "comment_text": "Cases of misused technology can be quite frustrating.\u003cp\u003eOur campus van drivers help people move between noncontiguous buildings and they used to use a dispatcher and a radio to do real time traveling-sales-man routing to move people around campus nodes.\u003cp\u003eA year or so ago, one of their managers had the great idea to use RideCell to ‘help’ the drivers plan their routes more effectively.\u003cp\u003eRidecell uses high-latency GPS coordinates from on-board iPads and assumes that nearest nodes also have short edges. The App has no idea that some coordinates that seem close happen to have very long traffic patterns (edges) that makes going from one to the other a very long and inefficient route to suggest (but it does anyway).\u003cp\u003eAlso, the drivers are not allowed to use the radio as often anymore because the managers want data on how effective they are, and the RideCell app has a horrible alert UX for new rides, placing them at the bottom of a long scroll list.\u003cp\u003eThe high-latency GPS coordinates are also interesting as you can imagine the system telling you to pick up someone right ‘next’ to you when you are already across campus...",
-            "num_comments": null,
-            "story_id": 20899054,
-            "story_title": "The NYC Subway replaced printed maps with low-resolution digital maps",
-            "story_url": "https://twitter.com/NYCTSubway/status/1166711446769676289",
-            "parent_id": 20899054,
-            "created_at_i": 1567859027,
-            "relevancy_score": 9043,
-            "_tags": [
-                "comment",
-                "author_mensetmanusman",
-                "story_20899054"
-            ],
-            "objectID": "20903334",
-            "_highlightResult": {
-                "author": {
-                    "value": "mensetmanusman",
-                    "matchLevel": "none",
-                    "matchedWords": []
-                },
-                "comment_text": {
-                    "value": "Cases of misused technology can be quite frustrating.\u003cp\u003eOur campus van drivers help people move between noncontiguous buildings and they used to use a dispatcher and a radio to do real time traveling-sales-man routing to move people around campus \u003cem\u003enodes\u003c/em\u003e.\u003cp\u003eA year or so ago, one of their managers had the great idea to use RideCell to ‘help’ the drivers plan their routes more effectively.\u003cp\u003eRidecell uses high-latency GPS coordinates from on-board iPads and assumes that nearest \u003cem\u003enodes\u003c/em\u003e also have short edges. The App has no idea that some coordinates that seem close happen to have very long traffic patterns (edges) that makes going from one to the other a very long and inefficient route to suggest (but it does anyway).\u003cp\u003eAlso, the drivers are not allowed to use the radio as often anymore because the managers want data on how effective they are, and the RideCell app has a horrible alert UX for new rides, placing them at the bottom of a long scroll list.\u003cp\u003eThe high-latency GPS coordinates are also interesting as you can imagine the system telling you to pick up someone right ‘next’ to you when you are already across campus...",
-                    "matchLevel": "full",
-                    "fullyHighlighted": false,
-                    "matchedWords": [
-                        "nodejs"
-                    ]
-                },
-                "story_title": {
-                    "value": "The NYC Subway replaced printed maps with low-resolution digital maps",
-                    "matchLevel": "none",
-                    "matchedWords": []
-                },
-                "story_url": {
-                    "value": "https://twitter.com/NYCTSubway/status/1166711446769676289",
-                    "matchLevel": "none",
-                    "matchedWords": []
-                }
-            }
-        },
-        {
-            "created_at": "2019-09-07T10:23:48.000Z",
-            "title": "Faster Async Functions and Promises in V8/Node.js",
-            "url": "https://v8.dev/blog/fast-async",
-            "author": "truth_seeker",
-            "points": 1,
-            "story_text": null,
-            "comment_text": null,
-            "num_comments": 0,
-            "story_id": null,
-            "story_title": null,
-            "story_url": null,
-            "parent_id": null,
-            "created_at_i": 1567851828,
-            "relevancy_score": 9043,
-            "_tags": [
-                "story",
-                "author_truth_seeker",
-                "story_20902924"
-            ],
-            "objectID": "20902924",
-            "_highlightResult": {
-                "title": {
-                    "value": "Faster Async Functions and Promises in V8/\u003cem\u003eNode.js\u003c/em\u003e",
-                    "matchLevel": "full",
-                    "fullyHighlighted": false,
-                    "matchedWords": [
-                        "nodejs"
-                    ]
-                },
-                "url": {
-                    "value": "https://v8.dev/blog/fast-async",
-                    "matchLevel": "none",
-                    "matchedWords": []
-                },
-                "author": {
-                    "value": "truth_seeker",
-                    "matchLevel": "none",
-                    "matchedWords": []
-                }
-            }
-        },
-        {
-            "created_at": "2019-09-07T04:32:28.000Z",
-            "title": "Ask HN: Which company uses Node.js primarily?",
-            "url": null,
-            "author": "anildigital",
-            "points": 1,
-            "story_text": null,
-            "comment_text": null,
-            "num_comments": 0,
-            "story_id": null,
-            "story_title": null,
-            "story_url": null,
-            "parent_id": null,
-            "created_at_i": 1567830748,
-            "relevancy_score": 9043,
-            "_tags": [
-                "story",
-                "author_anildigital",
-                "story_20901792",
-                "ask_hn"
-            ],
-            "objectID": "20901792",
-            "_highlightResult": {
-                "title": {
-                    "value": "Ask HN: Which company uses \u003cem\u003eNode.js\u003c/em\u003e primarily?",
-                    "matchLevel": "full",
-                    "fullyHighlighted": false,
-                    "matchedWords": [
-                        "nodejs"
-                    ]
-                },
-                "author": {
-                    "value": "anildigital",
-                    "matchLevel": "none",
-                    "matchedWords": []
-                }
-            }
-        },
-        {
-            "created_at": "2019-09-06T21:12:48.000Z",
-            "title": null,
-            "url": null,
-            "author": "muricula",
-            "points": null,
-            "story_text": null,
-            "comment_text": "The side channel for most of the spectre variants is the latency of misses on the cache lines. L1 and L2 cache lines are local to a physical core. As far as I know, nobody has made any of the spectre variants work by measuring the latency of L3 cache misses, which are local to NUMA nodes if I understand correctly, but I\u0026#x27;d love to hear otherwise.\u003cp\u003eThe most recent round of spectre variants measured the latency of the line fill buffers and other parts which are local to a physical core\u0026#x27;s memory subsystem.",
-            "num_comments": null,
-            "story_id": 20865492,
-            "story_title": "OpenBSD was right to disable hyperthreading [video]",
-            "story_url": "https://www.youtube.com/watch?v=jI3YE3Jlgw8",
-            "parent_id": 20882704,
-            "created_at_i": 1567804368,
-            "relevancy_score": 9043,
-            "_tags": [
-                "comment",
-                "author_muricula",
-                "story_20865492"
-            ],
-            "objectID": "20899952",
-            "_highlightResult": {
-                "author": {
-                    "value": "muricula",
-                    "matchLevel": "none",
-                    "matchedWords": []
-                },
-                "comment_text": {
-                    "value": "The side channel for most of the spectre variants is the latency of misses on the cache lines. L1 and L2 cache lines are local to a physical core. As far as I know, nobody has made any of the spectre variants work by measuring the latency of L3 cache misses, which are local to NUMA \u003cem\u003enodes\u003c/em\u003e if I understand correctly, but I'd love to hear otherwise.\u003cp\u003eThe most recent round of spectre variants measured the latency of the line fill buffers and other parts which are local to a physical core's memory subsystem.",
-                    "matchLevel": "full",
-                    "fullyHighlighted": false,
-                    "matchedWords": [
-                        "nodejs"
-                    ]
-                },
-                "story_title": {
-                    "value": "OpenBSD was right to disable hyperthreading [video]",
-                    "matchLevel": "none",
-                    "matchedWords": []
-                },
-                "story_url": {
-                    "value": "https://www.youtube.com/watch?v=jI3YE3Jlgw8",
-                    "matchLevel": "none",
-                    "matchedWords": []
-                }
-            }
-        },
-        {
-            "created_at": "2019-09-06T20:18:09.000Z",
-            "title": null,
-            "url": null,
-            "author": "ergothus",
-            "points": null,
-            "story_text": null,
-            "comment_text": "You\u0026#x27;ve never been on a project that was behind and management decided to add resources to it?  Impressive!\u003cp\u003eThe book is worthwhile, not just for the central lesson, but WHY (TL;DR: communication overhead between different individuals increase as you add \u0026quot;nodes\u0026quot; - interestingly, you can make analogies to L2 cache expiration problems and others) and also a nice view at IBM of the past.  And it was written in an era where there wasn\u0026#x27;t the need to make every book 300 pages long, so it\u0026#x27;s generally a lot more meat\u0026#x2F;page, though hardly perfect.",
-            "num_comments": null,
-            "story_id": 20897278,
-            "story_title": "Everything I googled in a week as a professional software engineer",
-            "story_url": "https://localghost.dev/2019/09/everything-i-googled-in-a-week-as-a-professional-software-engineer/",
-            "parent_id": 20899221,
-            "created_at_i": 1567801089,
-            "relevancy_score": 9043,
-            "_tags": [
-                "comment",
-                "author_ergothus",
-                "story_20897278"
-            ],
-            "objectID": "20899511",
-            "_highlightResult": {
-                "author": {
-                    "value": "ergothus",
-                    "matchLevel": "none",
-                    "matchedWords": []
-                },
-                "comment_text": {
-                    "value": "You've never been on a project that was behind and management decided to add resources to it?  Impressive!\u003cp\u003eThe book is worthwhile, not just for the central lesson, but WHY (TL;DR: communication overhead between different individuals increase as you add \u0026quot;\u003cem\u003enodes\u003c/em\u003e\u0026quot; - interestingly, you can make analogies to L2 cache expiration problems and others) and also a nice view at IBM of the past.  And it was written in an era where there wasn't the need to make every book 300 pages long, so it's generally a lot more meat/page, though hardly perfect.",
-                    "matchLevel": "full",
-                    "fullyHighlighted": false,
-                    "matchedWords": [
-                        "nodejs"
-                    ]
-                },
-                "story_title": {
-                    "value": "Everything I googled in a week as a professional software engineer",
-                    "matchLevel": "none",
-                    "matchedWords": []
-                },
-                "story_url": {
-                    "value": "https://localghost.dev/2019/09/everything-i-googled-in-a-week-as-a-professional-software-engineer/",
-                    "matchLevel": "none",
-                    "matchedWords": []
-                }
-            }
-        },
-        {
-            "created_at": "2019-09-06T19:41:44.000Z",
-            "title": null,
-            "url": null,
-            "author": "finkin1",
-            "points": null,
-            "story_text": null,
-            "comment_text": "SEEKING WORK - Boulder, NYC, or Remote\u003cp\u003eWe are a remote 3-person full-stack design and dev team. Our portfolio: \u003ca href=\"https:\u0026#x2F;\u0026#x2F;stratosphere.digital\" rel=\"nofollow\"\u003ehttps:\u0026#x2F;\u0026#x2F;stratosphere.digital\u003c/a\u003e. Some recent projects we\u0026#x27;ve worked on: \u003ca href=\"https:\u0026#x2F;\u0026#x2F;divvydose.com\" rel=\"nofollow\"\u003ehttps:\u0026#x2F;\u0026#x2F;divvydose.com\u003c/a\u003e, \u003ca href=\"https:\u0026#x2F;\u0026#x2F;emulatebio.com\" rel=\"nofollow\"\u003ehttps:\u0026#x2F;\u0026#x2F;emulatebio.com\u003c/a\u003e, \u003ca href=\"https:\u0026#x2F;\u0026#x2F;conveyour.com\" rel=\"nofollow\"\u003ehttps:\u0026#x2F;\u0026#x2F;conveyour.com\u003c/a\u003e, \u003ca href=\"http:\u0026#x2F;\u0026#x2F;shoptwigs.com\" rel=\"nofollow\"\u003ehttp:\u0026#x2F;\u0026#x2F;shoptwigs.com\u003c/a\u003e, \u003ca href=\"https:\u0026#x2F;\u0026#x2F;caster.io\" rel=\"nofollow\"\u003ehttps:\u0026#x2F;\u0026#x2F;caster.io\u003c/a\u003e.\u003cp\u003eSome of the technologies we\u0026#x27;re most familiar with: Web and mobile design, UI, UX, iconography, illustration, design prototyping, PHP, Node.js, Meteor, Python, Ruby, JavaScript, HTML, CSS, Sass, LESS, Stylus, CoffeeScript, WebSockets, AJAX, MongoDB, Redis, MySQL, Cordova, PhoneGap, React Native, iOS, Android, Browser extensions (Chrome, Firefox, Safari), AWS, WordPress, Joomla, Drupal, C, C++, C#, Java, Objective-C, Swift, QS\u0026#x2F;1, HL7, HIPAA.\u003cp\u003eWe offer hourly rates and discounted monthly retainer options. Contact: via our website or you can contact me directly at eliyah@stratosphere.digital.",
-            "num_comments": null,
-            "story_id": 20867122,
-            "story_title": "Ask HN: Freelancer? Seeking Freelancer? (September 2019)",
-            "story_url": null,
-            "parent_id": 20867122,
-            "created_at_i": 1567798904,
-            "relevancy_score": 9043,
-            "_tags": [
-                "comment",
-                "author_finkin1",
-                "story_20867122"
-            ],
-            "objectID": "20899159",
-            "_highlightResult": {
-                "author": {
-                    "value": "finkin1",
-                    "matchLevel": "none",
-                    "matchedWords": []
-                },
-                "comment_text": {
-                    "value": "SEEKING WORK - Boulder, NYC, or Remote\u003cp\u003eWe are a remote 3-person full-stack design and dev team. Our portfolio: \u003ca href=\"https://stratosphere.digital\" rel=\"nofollow\"\u003ehttps://stratosphere.digital\u003c/a\u003e. Some recent projects we've worked on: \u003ca href=\"https://divvydose.com\" rel=\"nofollow\"\u003ehttps://divvydose.com\u003c/a\u003e, \u003ca href=\"https://emulatebio.com\" rel=\"nofollow\"\u003ehttps://emulatebio.com\u003c/a\u003e, \u003ca href=\"https://conveyour.com\" rel=\"nofollow\"\u003ehttps://conveyour.com\u003c/a\u003e, \u003ca href=\"http://shoptwigs.com\" rel=\"nofollow\"\u003ehttp://shoptwigs.com\u003c/a\u003e, \u003ca href=\"https://caster.io\" rel=\"nofollow\"\u003ehttps://caster.io\u003c/a\u003e.\u003cp\u003eSome of the technologies we're most familiar with: Web and mobile design, UI, UX, iconography, illustration, design prototyping, PHP, \u003cem\u003eNode.js\u003c/em\u003e, Meteor, Python, Ruby, JavaScript, HTML, CSS, Sass, LESS, Stylus, CoffeeScript, WebSockets, AJAX, MongoDB, Redis, MySQL, Cordova, PhoneGap, React Native, iOS, Android, Browser extensions (Chrome, Firefox, Safari), AWS, WordPress, Joomla, Drupal, C, C++, C#, Java, Objective-C, Swift, QS/1, HL7, HIPAA.\u003cp\u003eWe offer hourly rates and discounted monthly retainer options. Contact: via our website or you can contact me directly at eliyah@stratosphere.digital.",
-                    "matchLevel": "full",
-                    "fullyHighlighted": false,
-                    "matchedWords": [
-                        "nodejs"
-                    ]
-                },
-                "story_title": {
-                    "value": "Ask HN: Freelancer? Seeking Freelancer? (September 2019)",
-                    "matchLevel": "none",
-                    "matchedWords": []
-                }
-            }
-        },
-        {
-            "created_at": "2019-09-06T17:10:10.000Z",
-            "title": null,
-            "url": null,
-            "author": "olalonde",
-            "points": null,
-            "story_text": null,
-            "comment_text": "What did you use to create the single node \u0026quot;cluster\u0026quot;? I was using k8s for a similar purpose but had to create 3 nodes at the time (\u0026gt;2 years ago).",
-            "num_comments": null,
-            "story_id": 20893087,
-            "story_title": "Why doesn’t anyone weep for Docker?",
-            "story_url": "https://www.techrepublic.com/article/why-doesnt-anyone-weep-for-docker/",
-            "parent_id": 20894584,
-            "created_at_i": 1567789810,
-            "relevancy_score": 9043,
-            "_tags": [
-                "comment",
-                "author_olalonde",
-                "story_20893087"
-            ],
-            "objectID": "20897481",
-            "_highlightResult": {
-                "author": {
-                    "value": "olalonde",
-                    "matchLevel": "none",
-                    "matchedWords": []
-                },
-                "comment_text": {
-                    "value": "What did you use to create the single node \u0026quot;cluster\u0026quot;? I was using k8s for a similar purpose but had to create 3 \u003cem\u003enodes\u003c/em\u003e at the time (\u0026gt;2 years ago).",
-                    "matchLevel": "full",
-                    "fullyHighlighted": false,
-                    "matchedWords": [
-                        "nodejs"
-                    ]
-                },
-                "story_title": {
-                    "value": "Why doesn’t anyone weep for Docker?",
-                    "matchLevel": "none",
-                    "matchedWords": []
-                },
-                "story_url": {
-                    "value": "https://www.techrepublic.com/article/why-doesnt-anyone-weep-for-docker/",
-                    "matchLevel": "none",
-                    "matchedWords": []
-                }
-            }
-        },
-        {
-            "created_at": "2019-09-06T14:42:47.000Z",
-            "title": "Show HN: An Open Source Alternative to CoinMarketCap in Node.js",
-            "url": "https://hackernoon.com/crypto-aggregator-an-open-source-alternative-for-coinmarketcap-3a39d31wt",
-            "author": "ourarash",
-            "points": 2,
-            "story_text": null,
-            "comment_text": null,
-            "num_comments": 0,
-            "story_id": null,
-            "story_title": null,
-            "story_url": null,
-            "parent_id": null,
-            "created_at_i": 1567780967,
-            "relevancy_score": 9043,
-            "_tags": [
-                "story",
-                "author_ourarash",
-                "story_20896054",
-                "show_hn"
-            ],
-            "objectID": "20896054",
-            "_highlightResult": {
-                "title": {
-                    "value": "Show HN: An Open Source Alternative to CoinMarketCap in \u003cem\u003eNode.js\u003c/em\u003e",
-                    "matchLevel": "full",
-                    "fullyHighlighted": false,
-                    "matchedWords": [
-                        "nodejs"
-                    ]
-                },
-                "url": {
-                    "value": "https://hackernoon.com/crypto-aggregator-an-open-source-alternative-for-coinmarketcap-3a39d31wt",
-                    "matchLevel": "none",
-                    "matchedWords": []
-                },
-                "author": {
-                    "value": "ourarash",
-                    "matchLevel": "none",
-                    "matchedWords": []
-                }
-            }
-        },
-        {
-            "created_at": "2019-09-06T14:36:57.000Z",
-            "title": null,
-            "url": null,
-            "author": "a1z26",
-            "points": null,
-            "story_text": null,
-            "comment_text": "\u003cp\u003e\u003cpre\u003e\u003ccode\u003e  Location: Bangalore , India\n\n  Willing to relocate: Depends on Location\n\n  Technologies: Python:Selenium, BS4 ,C and C++, Android App Development, React and Node JS,SQL.\n\n  Résumé\u0026#x2F;CV: https:\u0026#x2F;\u0026#x2F;drive.google.com\u0026#x2F;file\u0026#x2F;d\u0026#x2F;0BwQh68HLeUT2N19XMWVRaHA2d1VKa2NfN2tueTQtLTlILXhV\u0026#x2F;view?usp=sharing\n\n  Email: sharath.psh1@gmail.com\n\n  github : https:\u0026#x2F;\u0026#x2F;github.com\u0026#x2F;sharath-psh\n\n  Looking forward for an internship during Jan 2020 and a full-time job from July 2020.\u003c/code\u003e\u003c/pre\u003e",
-            "num_comments": null,
-            "story_id": 20867121,
-            "story_title": "Ask HN: Who wants to be hired? (September 2019)",
-            "story_url": null,
-            "parent_id": 20867121,
-            "created_at_i": 1567780617,
-            "relevancy_score": 9043,
-            "_tags": [
-                "comment",
-                "author_a1z26",
-                "story_20867121"
-            ],
-            "objectID": "20896004",
-            "_highlightResult": {
-                "author": {
-                    "value": "a1z26",
-                    "matchLevel": "none",
-                    "matchedWords": []
-                },
-                "comment_text": {
-                    "value": "\u003cp\u003e\u003cpre\u003e\u003ccode\u003e  Location: Bangalore , India\n\n  Willing to relocate: Depends on Location\n\n  Technologies: Python:Selenium, BS4 ,C and C++, Android App Development, React and \u003cem\u003eNode JS\u003c/em\u003e,SQL.\n\n  Résumé/CV: https://drive.google.com/file/d/0BwQh68HLeUT2N19XMWVRaHA2d1VKa2NfN2tueTQtLTlILXhV/view?usp=sharing\n\n  Email: sharath.psh1@gmail.com\n\n  github : https://github.com/sharath-psh\n\n  Looking forward for an internship during Jan 2020 and a full-time job from July 2020.\u003c/code\u003e\u003c/pre\u003e",
-                    "matchLevel": "full",
-                    "fullyHighlighted": false,
-                    "matchedWords": [
-                        "nodejs"
-                    ]
-                },
-                "story_title": {
-                    "value": "Ask HN: Who wants to be hired? (September 2019)",
-                    "matchLevel": "none",
-                    "matchedWords": []
-                }
-            }
-        },
-        {
-            "created_at": "2019-09-06T12:22:51.000Z",
-            "title": null,
-            "url": null,
-            "author": "stets",
-            "points": null,
-            "story_text": null,
-            "comment_text": "Location: Cincinnati, Ohio\nRemote: Yes\nWilling to relocate: Not atm\nTechnologies: AWS, Terraform, Python, Flask, Django, Docker, Nodejs, SQL\nRésumé\u0026#x2F;CV:\u003ca href=\"https:\u0026#x2F;\u0026#x2F;www.linkedin.com\u0026#x2F;in\u0026#x2F;stetson-blake-31635252\u0026#x2F;\" rel=\"nofollow\"\u003ehttps:\u0026#x2F;\u0026#x2F;www.linkedin.com\u0026#x2F;in\u0026#x2F;stetson-blake-31635252\u0026#x2F;\u003c/a\u003e\nEmail: stetson@heliositservices.com\n---\u003cp\u003eLooking for a DevOps or Infra type role atm. Currently working as an SRE on a SaaS application.",
-            "num_comments": null,
-            "story_id": 20867121,
-            "story_title": "Ask HN: Who wants to be hired? (September 2019)",
-            "story_url": null,
-            "parent_id": 20867121,
-            "created_at_i": 1567772571,
-            "relevancy_score": 9043,
-            "_tags": [
-                "comment",
-                "author_stets",
-                "story_20867121"
-            ],
-            "objectID": "20894979",
-            "_highlightResult": {
-                "author": {
-                    "value": "stets",
-                    "matchLevel": "none",
-                    "matchedWords": []
-                },
-                "comment_text": {
-                    "value": "Location: Cincinnati, Ohio\nRemote: Yes\nWilling to relocate: Not atm\nTechnologies: AWS, Terraform, Python, Flask, Django, Docker, \u003cem\u003eNodejs\u003c/em\u003e, SQL\nRésumé/CV:\u003ca href=\"https://www.linkedin.com/in/stetson-blake-31635252/\" rel=\"nofollow\"\u003ehttps://www.linkedin.com/in/stetson-blake-31635252/\u003c/a\u003e\nEmail: stetson@heliositservices.com\n---\u003cp\u003eLooking for a DevOps or Infra type role atm. Currently working as an SRE on a SaaS application.",
-                    "matchLevel": "full",
-                    "fullyHighlighted": false,
-                    "matchedWords": [
-                        "nodejs"
-                    ]
-                },
-                "story_title": {
-                    "value": "Ask HN: Who wants to be hired? (September 2019)",
-                    "matchLevel": "none",
-                    "matchedWords": []
-                }
-            }
-        },
-        {
-            "created_at": "2019-09-06T11:25:48.000Z",
-            "title": null,
-            "url": null,
-            "author": "mschuster91",
-            "points": null,
-            "story_text": null,
-            "comment_text": "\u0026gt; You\u0026#x27;ll never ever need either Docker or Kubernetes or even the latest and greatest javascript frameworks.\u003cp\u003eI agree with \u0026quot;no need for k8s and the latest JS frameworks\u0026quot;, but strongly disagree on not needing Docker. It is extremely useful for setting up separate development instances for your projects - no matter if you\u0026#x27;re doing PHP development with N different versions of PHP (as some sites may still be stuck at 5.6 while others are already requiring 7.2 due to Composer dependencies) or, worse, nodejs and Java where each project will have its own requirements for node, Tomcat and whatnot.\u003cp\u003eI personally set up one mega-container for each project which runs all the services required - mysql\u0026#x2F;pgsql for the database, apache as frontend \u0026#x2F; mod-php, if needed Tomcat - and can simply shut them down when I\u0026#x27;m done working on a project instead of having the databases and servers all consuming memory and resources all the time.",
-            "num_comments": null,
-            "story_id": 20893087,
-            "story_title": "Why doesn’t anyone weep for Docker?",
-            "story_url": "https://www.techrepublic.com/article/why-doesnt-anyone-weep-for-docker/",
-            "parent_id": 20893776,
-            "created_at_i": 1567769148,
-            "relevancy_score": 9043,
-            "_tags": [
-                "comment",
-                "author_mschuster91",
-                "story_20893087"
-            ],
-            "objectID": "20894666",
-            "_highlightResult": {
-                "author": {
-                    "value": "mschuster91",
-                    "matchLevel": "none",
-                    "matchedWords": []
-                },
-                "comment_text": {
-                    "value": "\u0026gt; You'll never ever need either Docker or Kubernetes or even the latest and greatest javascript frameworks.\u003cp\u003eI agree with \u0026quot;no need for k8s and the latest JS frameworks\u0026quot;, but strongly disagree on not needing Docker. It is extremely useful for setting up separate development instances for your projects - no matter if you're doing PHP development with N different versions of PHP (as some sites may still be stuck at 5.6 while others are already requiring 7.2 due to Composer dependencies) or, worse, \u003cem\u003enodejs\u003c/em\u003e and Java where each project will have its own requirements for node, Tomcat and whatnot.\u003cp\u003eI personally set up one mega-container for each project which runs all the services required - mysql/pgsql for the database, apache as frontend / mod-php, if needed Tomcat - and can simply shut them down when I'm done working on a project instead of having the databases and servers all consuming memory and resources all the time.",
-                    "matchLevel": "full",
-                    "fullyHighlighted": false,
-                    "matchedWords": [
-                        "nodejs"
-                    ]
-                },
-                "story_title": {
-                    "value": "Why doesn’t anyone weep for Docker?",
-                    "matchLevel": "none",
-                    "matchedWords": []
-                },
-                "story_url": {
-                    "value": "https://www.techrepublic.com/article/why-doesnt-anyone-weep-for-docker/",
-                    "matchLevel": "none",
-                    "matchedWords": []
-                }
-            }
-        },
-        {
-            "created_at": "2019-09-06T10:29:19.000Z",
-            "title": null,
-            "url": null,
-            "author": "bryanlarsen",
-            "points": null,
-            "story_text": null,
-            "comment_text": "\u0026gt; Why a cluster?\u003cp\u003eFor availability.  If you have promised 99.9% or more availability to your customers you probably need some sort of redundancy or hot failover.  Kubernetes is a good option to get that.\u003cp\u003eIf you don\u0026#x27;t need 99.9%, simpler is better.\u003cp\u003e\u0026gt; Too cheap\u003cp\u003eYou can get a single node Kubernetes cluster from Digital Ocean for $10 per month.\u003cp\u003eThat\u0026#x27;s silly because a single node cluster doesn\u0026#x27;t have redundancy which is the main reason for Kubernetes, but it lets you get started.  A minimum redundant cluster would have two nodes and a $15 load balancer, so $35 per month at DO.",
-            "num_comments": null,
-            "story_id": 20893087,
-            "story_title": "Why doesn’t anyone weep for Docker?",
-            "story_url": "https://www.techrepublic.com/article/why-doesnt-anyone-weep-for-docker/",
-            "parent_id": 20893618,
-            "created_at_i": 1567765759,
-            "relevancy_score": 9043,
-            "_tags": [
-                "comment",
-                "author_bryanlarsen",
-                "story_20893087"
-            ],
-            "objectID": "20894454",
-            "_highlightResult": {
-                "author": {
-                    "value": "bryanlarsen",
-                    "matchLevel": "none",
-                    "matchedWords": []
-                },
-                "comment_text": {
-                    "value": "\u0026gt; Why a cluster?\u003cp\u003eFor availability.  If you have promised 99.9% or more availability to your customers you probably need some sort of redundancy or hot failover.  Kubernetes is a good option to get that.\u003cp\u003eIf you don't need 99.9%, simpler is better.\u003cp\u003e\u0026gt; Too cheap\u003cp\u003eYou can get a single node Kubernetes cluster from Digital Ocean for $10 per month.\u003cp\u003eThat's silly because a single node cluster doesn't have redundancy which is the main reason for Kubernetes, but it lets you get started.  A minimum redundant cluster would have two \u003cem\u003enodes\u003c/em\u003e and a $15 load balancer, so $35 per month at DO.",
-                    "matchLevel": "full",
-                    "fullyHighlighted": false,
-                    "matchedWords": [
-                        "nodejs"
-                    ]
-                },
-                "story_title": {
-                    "value": "Why doesn’t anyone weep for Docker?",
-                    "matchLevel": "none",
-                    "matchedWords": []
-                },
-                "story_url": {
-                    "value": "https://www.techrepublic.com/article/why-doesnt-anyone-weep-for-docker/",
-                    "matchLevel": "none",
-                    "matchedWords": []
-                }
-            }
-        },
-        {
-            "created_at": "2019-09-06T08:26:24.000Z",
-            "title": "OpenFaaS Cloud – Userguide for Node.js and Express.js Apps and APIs",
-            "url": "https://docs.openfaas.com/openfaas-cloud/user-guide/",
-            "author": "alexellisuk",
-            "points": 1,
-            "story_text": null,
-            "comment_text": null,
-            "num_comments": 0,
-            "story_id": null,
-            "story_title": null,
-            "story_url": null,
-            "parent_id": null,
-            "created_at_i": 1567758384,
-            "relevancy_score": 9043,
-            "_tags": [
-                "story",
-                "author_alexellisuk",
-                "story_20893984"
-            ],
-            "objectID": "20893984",
-            "_highlightResult": {
-                "title": {
-                    "value": "OpenFaaS Cloud – Userguide for \u003cem\u003eNode.js\u003c/em\u003e and Express.js Apps and APIs",
-                    "matchLevel": "full",
-                    "fullyHighlighted": false,
-                    "matchedWords": [
-                        "nodejs"
-                    ]
-                },
-                "url": {
-                    "value": "https://docs.openfaas.com/openfaas-cloud/user-guide/",
-                    "matchLevel": "none",
-                    "matchedWords": []
-                },
-                "author": {
-                    "value": "alexellisuk",
-                    "matchLevel": "none",
-                    "matchedWords": []
-                }
-            }
-        },
-        {
-            "created_at": "2019-09-06T07:49:06.000Z",
-            "title": "Dockerizing Node.js",
-            "url": "https://www.jsmonday.dev/articles/13/dockerizing-node-js",
-            "author": "micheleriva",
-            "points": 2,
-            "story_text": null,
-            "comment_text": null,
-            "num_comments": 0,
-            "story_id": null,
-            "story_title": null,
-            "story_url": null,
-            "parent_id": null,
-            "created_at_i": 1567756146,
-            "relevancy_score": 9043,
-            "_tags": [
-                "story",
-                "author_micheleriva",
-                "story_20893823"
-            ],
-            "objectID": "20893823",
-            "_highlightResult": {
-                "title": {
-                    "value": "Dockerizing \u003cem\u003eNode.js\u003c/em\u003e",
-                    "matchLevel": "full",
-                    "fullyHighlighted": false,
-                    "matchedWords": [
-                        "nodejs"
-                    ]
-                },
-                "url": {
-                    "value": "https://www.jsmonday.dev/articles/13/dockerizing-node-js",
-                    "matchLevel": "none",
-                    "matchedWords": []
-                },
-                "author": {
-                    "value": "micheleriva",
-                    "matchLevel": "none",
-                    "matchedWords": []
-                }
-            }
-        },
-        {
-            "created_at": "2019-09-06T02:52:24.000Z",
-            "title": null,
-            "url": null,
-            "author": "alejohausner",
-            "points": null,
-            "story_text": null,
-            "comment_text": "The problem with recursion (and with the counting example in the post) is that a student will ask \u0026quot;why can\u0026#x27;t I do this with a loop?\u0026quot;  It\u0026#x27;s better to use a problem where recursion \u003ci\u003eMUST\u003c/i\u003e be used, such as a binary tree:\u003cp\u003eThe size (# of nodes) of a binary tree is:\u003cp\u003e- 0, if the tree is empty, or\u003cp\u003e- size of left subtree + size of right subtree + 1\u003cp\u003eIf you draw a tree, any student will agree that the recursive method makes sense.  Indeed, they would be hard-pressed to come up with solution that uses a loop (unless they know about stacks, OK OK).",
-            "num_comments": null,
-            "story_id": 20888923,
-            "story_title": "Understanding Recursion as an Absolute Beginner",
-            "story_url": "https://www.bigomega.dev/recursion",
-            "parent_id": 20888923,
-            "created_at_i": 1567738344,
-            "relevancy_score": 9043,
-            "_tags": [
-                "comment",
-                "author_alejohausner",
-                "story_20888923"
-            ],
-            "objectID": "20892615",
-            "_highlightResult": {
-                "author": {
-                    "value": "alejohausner",
-                    "matchLevel": "none",
-                    "matchedWords": []
-                },
-                "comment_text": {
-                    "value": "The problem with recursion (and with the counting example in the post) is that a student will ask \u0026quot;why can't I do this with a loop?\u0026quot;  It's better to use a problem where recursion \u003ci\u003eMUST\u003c/i\u003e be used, such as a binary tree:\u003cp\u003eThe size (# of \u003cem\u003enodes\u003c/em\u003e) of a binary tree is:\u003cp\u003e- 0, if the tree is empty, or\u003cp\u003e- size of left subtree + size of right subtree + 1\u003cp\u003eIf you draw a tree, any student will agree that the recursive method makes sense.  Indeed, they would be hard-pressed to come up with solution that uses a loop (unless they know about stacks, OK OK).",
-                    "matchLevel": "full",
-                    "fullyHighlighted": false,
-                    "matchedWords": [
-                        "nodejs"
-                    ]
-                },
-                "story_title": {
-                    "value": "Understanding Recursion as an Absolute Beginner",
-                    "matchLevel": "none",
-                    "matchedWords": []
-                },
-                "story_url": {
-                    "value": "https://www.bigomega.dev/recursion",
-                    "matchLevel": "none",
-                    "matchedWords": []
-                }
-            }
-        },
-        {
-            "created_at": "2019-09-06T01:08:29.000Z",
-            "title": null,
-            "url": null,
-            "author": "abeppu",
-            "points": null,
-            "story_text": null,
-            "comment_text": "It\u0026#x27;s certainly not the case that autodiff is only possible at the compiler level. I\u0026#x27;ve implemented forward mode (via dual numbers) and reverse mode (via tapes \u0026#x2F; wengert nodes) autodiff in libraries before.",
-            "num_comments": null,
-            "story_id": 20890149,
-            "story_title": "Differentiable Programming Mega-Proposal",
-            "story_url": "https://forums.swift.org/t/differentiable-programming-mega-proposal/28547",
-            "parent_id": 20892080,
-            "created_at_i": 1567732109,
-            "relevancy_score": 9043,
-            "_tags": [
-                "comment",
-                "author_abeppu",
-                "story_20890149"
-            ],
-            "objectID": "20892122",
-            "_highlightResult": {
-                "author": {
-                    "value": "abeppu",
-                    "matchLevel": "none",
-                    "matchedWords": []
-                },
-                "comment_text": {
-                    "value": "It's certainly not the case that autodiff is only possible at the compiler level. I've implemented forward mode (via dual numbers) and reverse mode (via tapes / wengert \u003cem\u003enodes\u003c/em\u003e) autodiff in libraries before.",
-                    "matchLevel": "full",
-                    "fullyHighlighted": false,
-                    "matchedWords": [
-                        "nodejs"
-                    ]
-                },
-                "story_title": {
-                    "value": "Differentiable Programming Mega-Proposal",
-                    "matchLevel": "none",
-                    "matchedWords": []
-                },
-                "story_url": {
-                    "value": "https://forums.swift.org/t/differentiable-programming-mega-proposal/28547",
-                    "matchLevel": "none",
-                    "matchedWords": []
-                }
-            }
-        },
-        {
-            "created_at": "2019-09-06T00:51:28.000Z",
-            "title": null,
-            "url": null,
-            "author": "bob1029",
-            "points": null,
-            "story_text": null,
-            "comment_text": "I have been working on a hobby database that uses a key-value store as the backend. Currently, it is structured as a binary tree such that an append-only log is possible (ideal for handling updates on a traditional SSD). This is a very complex and time-consuming part of the implementation.\u003cp\u003eWith this KV drive, I could potentially \u0026#x27;hardware accelerate\u0026#x27; my database backend and all of the complexity of log-structured merge trees falls away. It would just be a handful of calls into a KV SSD library that handles the magic of getting a KV pair to disk. All I would need to worry about are the higher-order primitives I can build on top of a KV store. Using hashing schemes and clever metadata structures, you can encode virtually unlimited amounts of information into a 256 bit key. One simple flat store of KV items can contain all of your indexes, objects, scripts, jobs, settings, etc. Additionally, using hashed metadata keys lends itself well to sharing the store across unlimited drives and nodes. 256 bits comprises an unimaginably large key space, and SHA512 is actually even faster to execute on most x86 64-bit hardware if you can eat the 2x overhead on keys (which can be safely assumed to be inexhaustible through the heat death of the universe at this point).",
-            "num_comments": null,
-            "story_id": 20889115,
-            "story_title": "Samsung Announces Key-Value SSD Prototype",
-            "story_url": "https://www.anandtech.com/show/14839/samsung-announces-standardscompliant-keyvalue-ssd-prototype",
-            "parent_id": 20889543,
-            "created_at_i": 1567731088,
-            "relevancy_score": 9043,
-            "_tags": [
-                "comment",
-                "author_bob1029",
-                "story_20889115"
-            ],
-            "objectID": "20892052",
-            "_highlightResult": {
-                "author": {
-                    "value": "bob1029",
-                    "matchLevel": "none",
-                    "matchedWords": []
-                },
-                "comment_text": {
-                    "value": "I have been working on a hobby database that uses a key-value store as the backend. Currently, it is structured as a binary tree such that an append-only log is possible (ideal for handling updates on a traditional SSD). This is a very complex and time-consuming part of the implementation.\u003cp\u003eWith this KV drive, I could potentially 'hardware accelerate' my database backend and all of the complexity of log-structured merge trees falls away. It would just be a handful of calls into a KV SSD library that handles the magic of getting a KV pair to disk. All I would need to worry about are the higher-order primitives I can build on top of a KV store. Using hashing schemes and clever metadata structures, you can encode virtually unlimited amounts of information into a 256 bit key. One simple flat store of KV items can contain all of your indexes, objects, scripts, jobs, settings, etc. Additionally, using hashed metadata keys lends itself well to sharing the store across unlimited drives and \u003cem\u003enodes\u003c/em\u003e. 256 bits comprises an unimaginably large key space, and SHA512 is actually even faster to execute on most x86 64-bit hardware if you can eat the 2x overhead on keys (which can be safely assumed to be inexhaustible through the heat death of the universe at this point).",
-                    "matchLevel": "full",
-                    "fullyHighlighted": false,
-                    "matchedWords": [
-                        "nodejs"
-                    ]
-                },
-                "story_title": {
-                    "value": "Samsung Announces Key-Value SSD Prototype",
-                    "matchLevel": "none",
-                    "matchedWords": []
-                },
-                "story_url": {
-                    "value": "https://www.anandtech.com/show/14839/samsung-announces-standardscompliant-keyvalue-ssd-prototype",
-                    "matchLevel": "none",
-                    "matchedWords": []
-                }
-            }
-        },
-        {
-            "created_at": "2019-09-06T00:48:51.000Z",
-            "title": null,
-            "url": null,
-            "author": "cat199",
-            "points": null,
-            "story_text": null,
-            "comment_text": "... all 6 of which were running a linux vm until recently, and still predominately so (windows containers are hugely niche and have just about as much \u0026#x27;loner children\u0026#x27; baggage in the larger commmunity)\u003cp\u003ewriting a gui to spin up the VM flavor du-jour with one hipster command that you can show in an animated terminal in your bloated website doesn\u0026#x27;t make something cross platform underneath the hood, and that same VM runtime could run just about anything else.\u003cp\u003eand no, i don\u0026#x27;t miss the point. you miss the point - you are arguing market share as if it is technical merit. I\u0026#x27;ll take 1 true school unix hacker over 5 million \u0026#x27;noders\u0026#x27; who cant debug their super hip k8s clusters they provisioned \u0026#x27;in the cloud\u0026#x27; with wget|sh when they break.",
-            "num_comments": null,
-            "story_id": 20865492,
-            "story_title": "OpenBSD was right to disable hyperthreading [video]",
-            "story_url": "https://www.youtube.com/watch?v=jI3YE3Jlgw8",
-            "parent_id": 20875160,
-            "created_at_i": 1567730931,
-            "relevancy_score": 9043,
-            "_tags": [
-                "comment",
-                "author_cat199",
-                "story_20865492"
-            ],
-            "objectID": "20892042",
-            "_highlightResult": {
-                "author": {
-                    "value": "cat199",
-                    "matchLevel": "none",
-                    "matchedWords": []
-                },
-                "comment_text": {
-                    "value": "... all 6 of which were running a linux vm until recently, and still predominately so (windows containers are hugely niche and have just about as much 'loner children' baggage in the larger commmunity)\u003cp\u003ewriting a gui to spin up the VM flavor du-jour with one hipster command that you can show in an animated terminal in your bloated website doesn't make something cross platform underneath the hood, and that same VM runtime could run just about anything else.\u003cp\u003eand no, i don't miss the point. you miss the point - you are arguing market share as if it is technical merit. I'll take 1 true school unix hacker over 5 million '\u003cem\u003enoders'\u003c/em\u003e who cant debug their super hip k8s clusters they provisioned 'in the cloud' with wget|sh when they break.",
-                    "matchLevel": "full",
-                    "fullyHighlighted": false,
-                    "matchedWords": [
-                        "nodejs"
-                    ]
-                },
-                "story_title": {
-                    "value": "OpenBSD was right to disable hyperthreading [video]",
-                    "matchLevel": "none",
-                    "matchedWords": []
-                },
-                "story_url": {
-                    "value": "https://www.youtube.com/watch?v=jI3YE3Jlgw8",
-                    "matchLevel": "none",
-                    "matchedWords": []
-                }
-            }
-        },
-        {
-            "created_at": "2019-09-06T00:34:10.000Z",
-            "title": null,
-            "url": null,
-            "author": "kandarp",
-            "points": null,
-            "story_text": null,
-            "comment_text": "Location: NV, USA\u003cp\u003eRemote: Yes, Open\u003cp\u003eWilling to relocate: Yes, especially SF\u0026#x2F;Bay area.\u003cp\u003eTechnologies: NodeJS, React, React Native, C#, .NET, HTML, CSS, JS, AWS, SQL (MySQL, PostgreS, SQL Server), Payment Processor, PDF Reports\u003cp\u003eRésumé\u0026#x2F;CV: \u003ca href=\"https:\u0026#x2F;\u0026#x2F;drive.google.com\u0026#x2F;file\u0026#x2F;d\u0026#x2F;1ppx702COPEJyw9o6hszWCrL5BvjgFkRc\u0026#x2F;view?usp=sharing\" rel=\"nofollow\"\u003ehttps:\u0026#x2F;\u0026#x2F;drive.google.com\u0026#x2F;file\u0026#x2F;d\u0026#x2F;1ppx702COPEJyw9o6hszWCrL5Bvj...\u003c/a\u003e\u003cp\u003eEmail: {HNusername}dave@gmail.com",
-            "num_comments": null,
-            "story_id": 20867121,
-            "story_title": "Ask HN: Who wants to be hired? (September 2019)",
-            "story_url": null,
-            "parent_id": 20867121,
-            "created_at_i": 1567730050,
-            "relevancy_score": 9043,
-            "_tags": [
-                "comment",
-                "author_kandarp",
-                "story_20867121"
-            ],
-            "objectID": "20891960",
-            "_highlightResult": {
-                "author": {
-                    "value": "kandarp",
-                    "matchLevel": "none",
-                    "matchedWords": []
-                },
-                "comment_text": {
-                    "value": "Location: NV, USA\u003cp\u003eRemote: Yes, Open\u003cp\u003eWilling to relocate: Yes, especially SF/Bay area.\u003cp\u003eTechnologies: \u003cem\u003eNodeJS\u003c/em\u003e, React, React Native, C#, .NET, HTML, CSS, JS, AWS, SQL (MySQL, PostgreS, SQL Server), Payment Processor, PDF Reports\u003cp\u003eRésumé/CV: \u003ca href=\"https://drive.google.com/file/d/1ppx702COPEJyw9o6hszWCrL5BvjgFkRc/view?usp=sharing\" rel=\"nofollow\"\u003ehttps://drive.google.com/file/d/1ppx702COPEJyw9o6hszWCrL5Bvj...\u003c/a\u003e\u003cp\u003eEmail: {HNusername}dave@gmail.com",
-                    "matchLevel": "full",
-                    "fullyHighlighted": false,
-                    "matchedWords": [
-                        "nodejs"
-                    ]
-                },
-                "story_title": {
-                    "value": "Ask HN: Who wants to be hired? (September 2019)",
-                    "matchLevel": "none",
-                    "matchedWords": []
-                }
-            }
-        }
-    ],
-    "nbHits": 44840,
-    "page": 0,
-    "nbPages": 50,
-    "hitsPerPage": 20,
-    "processingTimeMS": 5,
-    "exhaustiveNbHits": false,
-    "query": "nodejs",
-    "params": "advancedSyntax=true\u0026analytics=false\u0026query=nodejs"
+	"hits": [{
+		"created_at": "2019-09-08T16:40:03.000Z",
+		"title": null,
+		"url": null,
+		"author": "segmondy",
+		"points": null,
+		"story_text": null,
+		"comment_text": "I just want to know why anyone will personally need 1.5TB of ram in their personal PC today.  I\u0026#x27;m not saying that 128gb is all we need.  I\u0026#x27;m sure in the future, we might all have 32TB in our future portal device.   But what sort of work load or app could you possibly need 1.5TB of ram for?\u003cp\u003eOn my personal desktop right now. I have 20gb of ram and over 250tabs open on Firefox, spotify, VCode, Postgresql, pgadmin, multiple evice \u0026amp; fbreaders, rabbitMQ, some nodejs servers, 2 linux containers, 1 docker container, mysql server, 10+ xterm sessions, a few screen sessions and I\u0026#x27;m using 14Gb.",
+		"num_comments": null,
+		"story_id": 20909658,
+		"story_title": "Want 1.5TB of RAM in Your PC? It Will Cost You",
+		"story_url": "https://www.zdnet.com/article/want-1-5tb-of-ram-in-your-pc-it-will-cost-you/",
+		"parent_id": 20909658,
+		"created_at_i": 1567960803,
+		"relevancy_score": 9043,
+		"_tags": ["comment", "author_segmondy", "story_20909658"],
+		"objectID": "20911585",
+		"_highlightResult": {
+			"author": {
+				"value": "segmondy",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"comment_text": {
+				"value": "I just want to know why anyone will personally need 1.5TB of ram in their personal PC today.  I'm not saying that 128gb is all we need.  I'm sure in the future, we might all have 32TB in our future portal device.   But what sort of work load or app could you possibly need 1.5TB of ram for?\u003cp\u003eOn my personal desktop right now. I have 20gb of ram and over 250tabs open on Firefox, spotify, VCode, Postgresql, pgadmin, multiple evice \u0026amp; fbreaders, rabbitMQ, some \u003cem\u003enodejs\u003c/em\u003e servers, 2 linux containers, 1 docker container, mysql server, 10+ xterm sessions, a few screen sessions and I'm using 14Gb.",
+				"matchLevel": "full",
+				"fullyHighlighted": false,
+				"matchedWords": ["nodejs"]
+			},
+			"story_title": {
+				"value": "Want 1.5TB of RAM in Your PC? It Will Cost You",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"story_url": {
+				"value": "https://www.zdnet.com/article/want-1-5tb-of-ram-in-your-pc-it-will-cost-you/",
+				"matchLevel": "none",
+				"matchedWords": []
+			}
+		}
+	}, {
+		"created_at": "2019-09-08T13:51:29.000Z",
+		"title": null,
+		"url": null,
+		"author": "benologist",
+		"points": null,
+		"story_text": null,
+		"comment_text": "This is portrayed as an alternative to NVM but for what NVM does it seems more awkward.  NVM installs by bash because you do it \u003ci\u003ebefore\u003c/i\u003e installing NodeJS because the script is going to download only the version you want.  This efficiently solves the problem \u0026quot;install the target version of node for your application\u0026quot; on your server and \u0026quot;install the target for each application\u0026quot; on your workstation.\u003cp\u003eCompared to NVM\u0026#x27;s main use case - this NVE software is bootstrapped with NodeJS and 150 modules so on a server you just want to install the required NodeJS version as step 1-of-1, on your workstation maybe this can compete with NVM.\u003cp\u003eThe 10x faster stuff is silly too.  NVM just puts a symlink to whichever version of NodeJS you\u0026#x27;re using.  The benchmark is contrived to execute code using NVM, which is one way, but in practice you use NodeJS directly when you use NVM.  Executing NVM superfluously adds a lot of benchmark time.\u003cp\u003e\u003cpre\u003e\u003ccode\u003e    $ nvm use 8.12.0\n    $ time bash -i -c node\\ --version\n    v8.12.0\n\n    real    0m0.364s vs 0.692 through NVM\n    user    0m0.330s vs 0.639\n    sys     0m0.051s vs 0.78\n\u003c/code\u003e\u003c/pre\u003e\nWhere this software seems different to NVM is in running multiple NodeJS versions within the same application so you could execute logic across disparate versions.  That might be interesting with pinning down specific functionality from dependency\u0026#x2F;node combinations.",
+		"num_comments": null,
+		"story_id": 20910521,
+		"story_title": "Run any Node.js version 10x faster than nvm",
+		"story_url": "https://github.com/ehmicky/nve",
+		"parent_id": 20910521,
+		"created_at_i": 1567950689,
+		"relevancy_score": 9043,
+		"_tags": ["comment", "author_benologist", "story_20910521"],
+		"objectID": "20910551",
+		"_highlightResult": {
+			"author": {
+				"value": "benologist",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"comment_text": {
+				"value": "This is portrayed as an alternative to NVM but for what NVM does it seems more awkward.  NVM installs by bash because you do it \u003ci\u003ebefore\u003c/i\u003e installing \u003cem\u003eNodeJS\u003c/em\u003e because the script is going to download only the version you want.  This efficiently solves the problem \u0026quot;install the target version of node for your application\u0026quot; on your server and \u0026quot;install the target for each application\u0026quot; on your workstation.\u003cp\u003eCompared to NVM's main use case - this NVE software is bootstrapped with \u003cem\u003eNodeJS\u003c/em\u003e and 150 modules so on a server you just want to install the required \u003cem\u003eNodeJS\u003c/em\u003e version as step 1-of-1, on your workstation maybe this can compete with NVM.\u003cp\u003eThe 10x faster stuff is silly too.  NVM just puts a symlink to whichever version of \u003cem\u003eNodeJS\u003c/em\u003e you're using.  The benchmark is contrived to execute code using NVM, which is one way, but in practice you use \u003cem\u003eNodeJS\u003c/em\u003e directly when you use NVM.  Executing NVM superfluously adds a lot of benchmark time.\u003cp\u003e\u003cpre\u003e\u003ccode\u003e    $ nvm use 8.12.0\n    $ time bash -i -c node\\ --version\n    v8.12.0\n\n    real    0m0.364s vs 0.692 through NVM\n    user    0m0.330s vs 0.639\n    sys     0m0.051s vs 0.78\n\u003c/code\u003e\u003c/pre\u003e\nWhere this software seems different to NVM is in running multiple \u003cem\u003eNodeJS\u003c/em\u003e versions within the same application so you could execute logic across disparate versions.  That might be interesting with pinning down specific functionality from dependency/node combinations.",
+				"matchLevel": "full",
+				"fullyHighlighted": false,
+				"matchedWords": ["nodejs"]
+			},
+			"story_title": {
+				"value": "Run any Node.js version 10x faster than nvm",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"story_url": {
+				"value": "https://github.com/ehmicky/nve",
+				"matchLevel": "none",
+				"matchedWords": []
+			}
+		}
+	}, {
+		"created_at": "2019-09-08T10:11:00.000Z",
+		"title": "Show HN: Creating an API for Anime Info and Quotes. Need Suggestions.",
+		"url": null,
+		"author": "mkb_mc",
+		"points": 1,
+		"story_text": "Hi, I am learning NodeJS Backend Development with ExpressJS. For which I am creating an API which provides info \u0026amp; stats for ANIME along with the Quotes from different ANIME \u0026amp; Characters.\nCan I get some suggestions for like what else I can add in the API regarding ANIME only?",
+		"comment_text": null,
+		"num_comments": 0,
+		"story_id": null,
+		"story_title": null,
+		"story_url": null,
+		"parent_id": null,
+		"created_at_i": 1567937460,
+		"relevancy_score": 9043,
+		"_tags": ["story", "author_mkb_mc", "story_20909582", "show_hn"],
+		"objectID": "20909582",
+		"_highlightResult": {
+			"title": {
+				"value": "Show HN: Creating an API for Anime Info and Quotes. Need Suggestions.",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"author": {
+				"value": "mkb_mc",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"story_text": {
+				"value": "Hi, I am learning \u003cem\u003eNodeJS\u003c/em\u003e Backend Development with ExpressJS. For which I am creating an API which provides info \u0026amp; stats for ANIME along with the Quotes from different ANIME \u0026amp; Characters.\nCan I get some suggestions for like what else I can add in the API regarding ANIME only?",
+				"matchLevel": "full",
+				"fullyHighlighted": false,
+				"matchedWords": ["nodejs"]
+			}
+		}
+	}, {
+		"created_at": "2019-09-06T14:36:57.000Z",
+		"title": null,
+		"url": null,
+		"author": "a1z26",
+		"points": null,
+		"story_text": null,
+		"comment_text": "\u003cp\u003e\u003cpre\u003e\u003ccode\u003e  Location: Bangalore , India\n\n  Willing to relocate: Depends on Location\n\n  Technologies: Python:Selenium, BS4 ,C and C++, Android App Development, React and Node JS,SQL.\n\n  Résumé\u0026#x2F;CV: https:\u0026#x2F;\u0026#x2F;drive.google.com\u0026#x2F;file\u0026#x2F;d\u0026#x2F;0BwQh68HLeUT2N19XMWVRaHA2d1VKa2NfN2tueTQtLTlILXhV\u0026#x2F;view?usp=sharing\n\n  Email: sharath.psh1@gmail.com\n\n  github : https:\u0026#x2F;\u0026#x2F;github.com\u0026#x2F;sharath-psh\n\n  Looking forward for an internship during Jan 2020 and a full-time job from July 2020.\u003c/code\u003e\u003c/pre\u003e",
+		"num_comments": null,
+		"story_id": 20867121,
+		"story_title": "Ask HN: Who wants to be hired? (September 2019)",
+		"story_url": null,
+		"parent_id": 20867121,
+		"created_at_i": 1567780617,
+		"relevancy_score": 9043,
+		"_tags": ["comment", "author_a1z26", "story_20867121"],
+		"objectID": "20896004",
+		"_highlightResult": {
+			"author": {
+				"value": "a1z26",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"comment_text": {
+				"value": "\u003cp\u003e\u003cpre\u003e\u003ccode\u003e  Location: Bangalore , India\n\n  Willing to relocate: Depends on Location\n\n  Technologies: Python:Selenium, BS4 ,C and C++, Android App Development, React and \u003cem\u003eNode JS\u003c/em\u003e,SQL.\n\n  Résumé/CV: https://drive.google.com/file/d/0BwQh68HLeUT2N19XMWVRaHA2d1VKa2NfN2tueTQtLTlILXhV/view?usp=sharing\n\n  Email: sharath.psh1@gmail.com\n\n  github : https://github.com/sharath-psh\n\n  Looking forward for an internship during Jan 2020 and a full-time job from July 2020.\u003c/code\u003e\u003c/pre\u003e",
+				"matchLevel": "full",
+				"fullyHighlighted": false,
+				"matchedWords": ["nodejs"]
+			},
+			"story_title": {
+				"value": "Ask HN: Who wants to be hired? (September 2019)",
+				"matchLevel": "none",
+				"matchedWords": []
+			}
+		}
+	}, {
+		"created_at": "2019-09-06T12:22:51.000Z",
+		"title": null,
+		"url": null,
+		"author": "stets",
+		"points": null,
+		"story_text": null,
+		"comment_text": "Location: Cincinnati, Ohio\nRemote: Yes\nWilling to relocate: Not atm\nTechnologies: AWS, Terraform, Python, Flask, Django, Docker, Nodejs, SQL\nRésumé\u0026#x2F;CV:\u003ca href=\"https:\u0026#x2F;\u0026#x2F;www.linkedin.com\u0026#x2F;in\u0026#x2F;stetson-blake-31635252\u0026#x2F;\" rel=\"nofollow\"\u003ehttps:\u0026#x2F;\u0026#x2F;www.linkedin.com\u0026#x2F;in\u0026#x2F;stetson-blake-31635252\u0026#x2F;\u003c/a\u003e\nEmail: stetson@heliositservices.com\n---\u003cp\u003eLooking for a DevOps or Infra type role atm. Currently working as an SRE on a SaaS application.",
+		"num_comments": null,
+		"story_id": 20867121,
+		"story_title": "Ask HN: Who wants to be hired? (September 2019)",
+		"story_url": null,
+		"parent_id": 20867121,
+		"created_at_i": 1567772571,
+		"relevancy_score": 9043,
+		"_tags": ["comment", "author_stets", "story_20867121"],
+		"objectID": "20894979",
+		"_highlightResult": {
+			"author": {
+				"value": "stets",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"comment_text": {
+				"value": "Location: Cincinnati, Ohio\nRemote: Yes\nWilling to relocate: Not atm\nTechnologies: AWS, Terraform, Python, Flask, Django, Docker, \u003cem\u003eNodejs\u003c/em\u003e, SQL\nRésumé/CV:\u003ca href=\"https://www.linkedin.com/in/stetson-blake-31635252/\" rel=\"nofollow\"\u003ehttps://www.linkedin.com/in/stetson-blake-31635252/\u003c/a\u003e\nEmail: stetson@heliositservices.com\n---\u003cp\u003eLooking for a DevOps or Infra type role atm. Currently working as an SRE on a SaaS application.",
+				"matchLevel": "full",
+				"fullyHighlighted": false,
+				"matchedWords": ["nodejs"]
+			},
+			"story_title": {
+				"value": "Ask HN: Who wants to be hired? (September 2019)",
+				"matchLevel": "none",
+				"matchedWords": []
+			}
+		}
+	}, {
+		"created_at": "2019-09-06T11:25:48.000Z",
+		"title": null,
+		"url": null,
+		"author": "mschuster91",
+		"points": null,
+		"story_text": null,
+		"comment_text": "\u0026gt; You\u0026#x27;ll never ever need either Docker or Kubernetes or even the latest and greatest javascript frameworks.\u003cp\u003eI agree with \u0026quot;no need for k8s and the latest JS frameworks\u0026quot;, but strongly disagree on not needing Docker. It is extremely useful for setting up separate development instances for your projects - no matter if you\u0026#x27;re doing PHP development with N different versions of PHP (as some sites may still be stuck at 5.6 while others are already requiring 7.2 due to Composer dependencies) or, worse, nodejs and Java where each project will have its own requirements for node, Tomcat and whatnot.\u003cp\u003eI personally set up one mega-container for each project which runs all the services required - mysql\u0026#x2F;pgsql for the database, apache as frontend \u0026#x2F; mod-php, if needed Tomcat - and can simply shut them down when I\u0026#x27;m done working on a project instead of having the databases and servers all consuming memory and resources all the time.",
+		"num_comments": null,
+		"story_id": 20893087,
+		"story_title": "Why doesn’t anyone weep for Docker?",
+		"story_url": "https://www.techrepublic.com/article/why-doesnt-anyone-weep-for-docker/",
+		"parent_id": 20893776,
+		"created_at_i": 1567769148,
+		"relevancy_score": 9043,
+		"_tags": ["comment", "author_mschuster91", "story_20893087"],
+		"objectID": "20894666",
+		"_highlightResult": {
+			"author": {
+				"value": "mschuster91",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"comment_text": {
+				"value": "\u0026gt; You'll never ever need either Docker or Kubernetes or even the latest and greatest javascript frameworks.\u003cp\u003eI agree with \u0026quot;no need for k8s and the latest JS frameworks\u0026quot;, but strongly disagree on not needing Docker. It is extremely useful for setting up separate development instances for your projects - no matter if you're doing PHP development with N different versions of PHP (as some sites may still be stuck at 5.6 while others are already requiring 7.2 due to Composer dependencies) or, worse, \u003cem\u003enodejs\u003c/em\u003e and Java where each project will have its own requirements for node, Tomcat and whatnot.\u003cp\u003eI personally set up one mega-container for each project which runs all the services required - mysql/pgsql for the database, apache as frontend / mod-php, if needed Tomcat - and can simply shut them down when I'm done working on a project instead of having the databases and servers all consuming memory and resources all the time.",
+				"matchLevel": "full",
+				"fullyHighlighted": false,
+				"matchedWords": ["nodejs"]
+			},
+			"story_title": {
+				"value": "Why doesn’t anyone weep for Docker?",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"story_url": {
+				"value": "https://www.techrepublic.com/article/why-doesnt-anyone-weep-for-docker/",
+				"matchLevel": "none",
+				"matchedWords": []
+			}
+		}
+	}, {
+		"created_at": "2019-09-06T07:49:06.000Z",
+		"title": "Dockerizing Node.js",
+		"url": "https://www.jsmonday.dev/articles/13/dockerizing-node-js",
+		"author": "micheleriva",
+		"points": 2,
+		"story_text": null,
+		"comment_text": null,
+		"num_comments": 0,
+		"story_id": null,
+		"story_title": null,
+		"story_url": null,
+		"parent_id": null,
+		"created_at_i": 1567756146,
+		"relevancy_score": 9043,
+		"_tags": ["story", "author_micheleriva", "story_20893823"],
+		"objectID": "20893823",
+		"_highlightResult": {
+			"title": {
+				"value": "Dockerizing Node.js",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"url": {
+				"value": "https://www.jsmonday.dev/articles/13/dockerizing-\u003cem\u003enode-js\u003c/em\u003e",
+				"matchLevel": "full",
+				"fullyHighlighted": false,
+				"matchedWords": ["nodejs"]
+			},
+			"author": {
+				"value": "micheleriva",
+				"matchLevel": "none",
+				"matchedWords": []
+			}
+		}
+	}, {
+		"created_at": "2019-09-06T00:34:10.000Z",
+		"title": null,
+		"url": null,
+		"author": "kandarp",
+		"points": null,
+		"story_text": null,
+		"comment_text": "Location: NV, USA\u003cp\u003eRemote: Yes, Open\u003cp\u003eWilling to relocate: Yes, especially SF\u0026#x2F;Bay area.\u003cp\u003eTechnologies: NodeJS, React, React Native, C#, .NET, HTML, CSS, JS, AWS, SQL (MySQL, PostgreS, SQL Server), Payment Processor, PDF Reports\u003cp\u003eRésumé\u0026#x2F;CV: \u003ca href=\"https:\u0026#x2F;\u0026#x2F;drive.google.com\u0026#x2F;file\u0026#x2F;d\u0026#x2F;1ppx702COPEJyw9o6hszWCrL5BvjgFkRc\u0026#x2F;view?usp=sharing\" rel=\"nofollow\"\u003ehttps:\u0026#x2F;\u0026#x2F;drive.google.com\u0026#x2F;file\u0026#x2F;d\u0026#x2F;1ppx702COPEJyw9o6hszWCrL5Bvj...\u003c/a\u003e\u003cp\u003eEmail: {HNusername}dave@gmail.com",
+		"num_comments": null,
+		"story_id": 20867121,
+		"story_title": "Ask HN: Who wants to be hired? (September 2019)",
+		"story_url": null,
+		"parent_id": 20867121,
+		"created_at_i": 1567730050,
+		"relevancy_score": 9043,
+		"_tags": ["comment", "author_kandarp", "story_20867121"],
+		"objectID": "20891960",
+		"_highlightResult": {
+			"author": {
+				"value": "kandarp",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"comment_text": {
+				"value": "Location: NV, USA\u003cp\u003eRemote: Yes, Open\u003cp\u003eWilling to relocate: Yes, especially SF/Bay area.\u003cp\u003eTechnologies: \u003cem\u003eNodeJS\u003c/em\u003e, React, React Native, C#, .NET, HTML, CSS, JS, AWS, SQL (MySQL, PostgreS, SQL Server), Payment Processor, PDF Reports\u003cp\u003eRésumé/CV: \u003ca href=\"https://drive.google.com/file/d/1ppx702COPEJyw9o6hszWCrL5BvjgFkRc/view?usp=sharing\" rel=\"nofollow\"\u003ehttps://drive.google.com/file/d/1ppx702COPEJyw9o6hszWCrL5Bvj...\u003c/a\u003e\u003cp\u003eEmail: {HNusername}dave@gmail.com",
+				"matchLevel": "full",
+				"fullyHighlighted": false,
+				"matchedWords": ["nodejs"]
+			},
+			"story_title": {
+				"value": "Ask HN: Who wants to be hired? (September 2019)",
+				"matchLevel": "none",
+				"matchedWords": []
+			}
+		}
+	}, {
+		"created_at": "2019-09-05T18:08:01.000Z",
+		"title": null,
+		"url": null,
+		"author": "iLemming",
+		"points": null,
+		"story_text": null,
+		"comment_text": "- Because of a perfect balance between simplicity, elegance, and pragmatism.\u003cp\u003e- Because of \u0026quot;true\u0026quot; REPL. Having to be able to evaluate any expression without any ceremony, right from your IDE, with one or a couple of keystrokes is remarkably liberating. No language I have tried gives me that enormous boost when prototyping things. Even refactoring existing code is much faster, because of the tightened feedback loop. Only Smalltalk comes close enough, sadly, Smalltalk has been dormant in years, and I don\u0026#x27;t think it ever comes back as a pragmatic choice to build a business upon. Whenever anyone retorts \u0026quot;Python has REPL, Ruby too, etc.\u0026quot; - it is just sad to see their ignorance. One has to give a heartfelt try to understand what makes Lisp REPL so unique.\u003cp\u003e- Because it is currently probably the best PL for building web-apps. You get real code-reuse, which even in NodeJS with JS\u0026#x2F;TS turned out to be an unfulfilled promise. You cannot merely share say data validation logic between back-end and front-end, even in NodeJS, let aside other languages. In Clojure, this turned out to be possible, even though you essentially might be running things on two completely different platforms - JVM and the browser.\u003cp\u003e- Because you have access to tons of libraries. Java and Javascript interop from Clojure and Clojurescript is lovely. Why re-invent the wheel if someone has already done it?\u003cp\u003e- Because of the fantastic community of genuinely inspiring, smart, and extremely friendly people. When you work with Clojure\u0026#x2F;Clojurescript, you always feel a step ahead of the crowd [working in other, more popular PLs]. So many things in different languages got inspiration from Clojure: destructuring, immutability, state management (redux, Elm), React hooks, etc. etc. And at the same time, Clojurists never feel shy and actively \u0026quot;borrow\u0026quot; good things from other languages, libraries, and tools. Clojure community of active members has probably fewer people than work for Google, but they generate and enhance so many awesome and cool ideas.",
+		"num_comments": null,
+		"story_id": 20875688,
+		"story_title": "TypeScript vs. ReasonML",
+		"story_url": "https://blog.dubenko.dev/typescript-vs-reason/",
+		"parent_id": 20878055,
+		"created_at_i": 1567706881,
+		"relevancy_score": 9043,
+		"_tags": ["comment", "author_iLemming", "story_20875688"],
+		"objectID": "20889320",
+		"_highlightResult": {
+			"author": {
+				"value": "iLemming",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"comment_text": {
+				"value": "- Because of a perfect balance between simplicity, elegance, and pragmatism.\u003cp\u003e- Because of \u0026quot;true\u0026quot; REPL. Having to be able to evaluate any expression without any ceremony, right from your IDE, with one or a couple of keystrokes is remarkably liberating. No language I have tried gives me that enormous boost when prototyping things. Even refactoring existing code is much faster, because of the tightened feedback loop. Only Smalltalk comes close enough, sadly, Smalltalk has been dormant in years, and I don't think it ever comes back as a pragmatic choice to build a business upon. Whenever anyone retorts \u0026quot;Python has REPL, Ruby too, etc.\u0026quot; - it is just sad to see their ignorance. One has to give a heartfelt try to understand what makes Lisp REPL so unique.\u003cp\u003e- Because it is currently probably the best PL for building web-apps. You get real code-reuse, which even in \u003cem\u003eNodeJS\u003c/em\u003e with JS/TS turned out to be an unfulfilled promise. You cannot merely share say data validation logic between back-end and front-end, even in \u003cem\u003eNodeJS\u003c/em\u003e, let aside other languages. In Clojure, this turned out to be possible, even though you essentially might be running things on two completely different platforms - JVM and the browser.\u003cp\u003e- Because you have access to tons of libraries. Java and Javascript interop from Clojure and Clojurescript is lovely. Why re-invent the wheel if someone has already done it?\u003cp\u003e- Because of the fantastic community of genuinely inspiring, smart, and extremely friendly people. When you work with Clojure/Clojurescript, you always feel a step ahead of the crowd [working in other, more popular PLs]. So many things in different languages got inspiration from Clojure: destructuring, immutability, state management (redux, Elm), React hooks, etc. etc. And at the same time, Clojurists never feel shy and actively \u0026quot;borrow\u0026quot; good things from other languages, libraries, and tools. Clojure community of active members has probably fewer people than work for Google, but they generate and enhance so many awesome and cool ideas.",
+				"matchLevel": "full",
+				"fullyHighlighted": false,
+				"matchedWords": ["nodejs"]
+			},
+			"story_title": {
+				"value": "TypeScript vs. ReasonML",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"story_url": {
+				"value": "https://blog.dubenko.dev/typescript-vs-reason/",
+				"matchLevel": "none",
+				"matchedWords": []
+			}
+		}
+	}, {
+		"created_at": "2019-09-05T09:05:08.000Z",
+		"title": null,
+		"url": null,
+		"author": "david1221",
+		"points": null,
+		"story_text": null,
+		"comment_text": "CreditStretcher | Full Stack Developer | 100% REMOTE\u003cp\u003eWhat we do:\nWe believe the way small businesses borrow money is broken. We’re focused on solving their problems instead of selling them financial products they don’t need. We are the faster, fairer way to pay overdue bills when waiting on unpaid invoices.\u003cp\u003eOur Stack:\nOur platform uses an Angular frontend which communicated via. GraphQL to our NodeJS backend coded in Typescript. As a database we use PostgreSQL and the hosting is done by various Amazon Web Services. We have integrated CI\u0026#x2F;CD workflows and most parts are containerized with Docker. We are currently in the middle of converting to an microservices architecture. There is also a Corda blockchain keeping track of the whole process.\u003cp\u003eTechnical skills required:\n- Angular 8\n- GraphQL\n- Typescript\n- Postgres or other SQL databases\n- NodeJS\u003cp\u003eBonus:\n- Experience with financial applications\n- Apollo\n- Knowledge of the different programming methodologies (like SCRUM)\n- Knowledge about factoring, banking, and lending.\u003cp\u003eRead more and apply here:\n\u003ca href=\"https:\u0026#x2F;\u0026#x2F;thehub.dk\u0026#x2F;jobs\u0026#x2F;remote-full-stack-developer-to-join-our-startup-adventure\" rel=\"nofollow\"\u003ehttps:\u0026#x2F;\u0026#x2F;thehub.dk\u0026#x2F;jobs\u0026#x2F;remote-full-stack-developer-to-join-o...\u003c/a\u003e",
+		"num_comments": null,
+		"story_id": 20867123,
+		"story_title": "Ask HN: Who is hiring? (September 2019)",
+		"story_url": null,
+		"parent_id": 20867123,
+		"created_at_i": 1567674308,
+		"relevancy_score": 9043,
+		"_tags": ["comment", "author_david1221", "story_20867123"],
+		"objectID": "20885066",
+		"_highlightResult": {
+			"author": {
+				"value": "david1221",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"comment_text": {
+				"value": "CreditStretcher | Full Stack Developer | 100% REMOTE\u003cp\u003eWhat we do:\nWe believe the way small businesses borrow money is broken. We’re focused on solving their problems instead of selling them financial products they don’t need. We are the faster, fairer way to pay overdue bills when waiting on unpaid invoices.\u003cp\u003eOur Stack:\nOur platform uses an Angular frontend which communicated via. GraphQL to our \u003cem\u003eNodeJS\u003c/em\u003e backend coded in Typescript. As a database we use PostgreSQL and the hosting is done by various Amazon Web Services. We have integrated CI/CD workflows and most parts are containerized with Docker. We are currently in the middle of converting to an microservices architecture. There is also a Corda blockchain keeping track of the whole process.\u003cp\u003eTechnical skills required:\n- Angular 8\n- GraphQL\n- Typescript\n- Postgres or other SQL databases\n- \u003cem\u003eNodeJS\u003c/em\u003e\u003cp\u003eBonus:\n- Experience with financial applications\n- Apollo\n- Knowledge of the different programming methodologies (like SCRUM)\n- Knowledge about factoring, banking, and lending.\u003cp\u003eRead more and apply here:\n\u003ca href=\"https://thehub.dk/jobs/remote-full-stack-developer-to-join-our-startup-adventure\" rel=\"nofollow\"\u003ehttps://thehub.dk/jobs/remote-full-stack-developer-to-join-o...\u003c/a\u003e",
+				"matchLevel": "full",
+				"fullyHighlighted": false,
+				"matchedWords": ["nodejs"]
+			},
+			"story_title": {
+				"value": "Ask HN: Who is hiring? (September 2019)",
+				"matchLevel": "none",
+				"matchedWords": []
+			}
+		}
+	}, {
+		"created_at": "2019-09-05T00:49:02.000Z",
+		"title": null,
+		"url": null,
+		"author": "lmeyerov",
+		"points": null,
+		"story_text": null,
+		"comment_text": "RE:Streaming, Graphistry wrote much of the Apache Arrow JS lib to optimize for this case of streaming GPU DBs -\u0026gt; GPU browser frontends, you can see a pretty striking before\u0026#x2F;after here: \u003ca href=\"https:\u0026#x2F;\u0026#x2F;www.graphistry.com\u0026#x2F;blog\u0026#x2F;experiencing-the-future-of-gpu-analytics-using-nvidia-rapids-and-graphistry\" rel=\"nofollow\"\u003ehttps:\u0026#x2F;\u0026#x2F;www.graphistry.com\u0026#x2F;blog\u0026#x2F;experiencing-the-future-of-g...\u003c/a\u003e . JS networking devs \u003ci\u003ecan\u003c/i\u003e handwrite that stuff.. but it stinks, and this way, everyone benefits. I recall Vega folks had some fun experiments with GPU DB -\u0026gt; CPU frontends here (ended up part of an HCI or VLDB paper?), not sure what happened since. Our production focus on that layer is now more on scaling up node js cpu+gpu code \u0026lt;\u0026gt; pydata GPU code (Nvidia RAPIDS).\u003cp\u003eFor OmniSci folks: Cool to see Jupyter embedded! Our more advanced users love this path, but we find versioning \u0026amp; team collab tricky in big enterprise settings, so every additional company and (hopefully) contributor here should help. Getting there :)",
+		"num_comments": null,
+		"story_id": 20881394,
+		"story_title": "To Jupyter and Beyond: Interactive Data Science at Scale with OmniSci",
+		"story_url": "https://www.omnisci.com/blog/to-jupyter-and-beyond-data-science-with-omnisci",
+		"parent_id": 20882163,
+		"created_at_i": 1567644542,
+		"relevancy_score": 9043,
+		"_tags": ["comment", "author_lmeyerov", "story_20881394"],
+		"objectID": "20882872",
+		"_highlightResult": {
+			"author": {
+				"value": "lmeyerov",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"comment_text": {
+				"value": "RE:Streaming, Graphistry wrote much of the Apache Arrow JS lib to optimize for this case of streaming GPU DBs -\u0026gt; GPU browser frontends, you can see a pretty striking before/after here: \u003ca href=\"https://www.graphistry.com/blog/experiencing-the-future-of-gpu-analytics-using-nvidia-rapids-and-graphistry\" rel=\"nofollow\"\u003ehttps://www.graphistry.com/blog/experiencing-the-future-of-g...\u003c/a\u003e . JS networking devs \u003ci\u003ecan\u003c/i\u003e handwrite that stuff.. but it stinks, and this way, everyone benefits. I recall Vega folks had some fun experiments with GPU DB -\u0026gt; CPU frontends here (ended up part of an HCI or VLDB paper?), not sure what happened since. Our production focus on that layer is now more on scaling up \u003cem\u003enode js\u003c/em\u003e cpu+gpu code \u0026lt;\u0026gt; pydata GPU code (Nvidia RAPIDS).\u003cp\u003eFor OmniSci folks: Cool to see Jupyter embedded! Our more advanced users love this path, but we find versioning \u0026amp; team collab tricky in big enterprise settings, so every additional company and (hopefully) contributor here should help. Getting there :)",
+				"matchLevel": "full",
+				"fullyHighlighted": false,
+				"matchedWords": ["nodejs"]
+			},
+			"story_title": {
+				"value": "To Jupyter and Beyond: Interactive Data Science at Scale with OmniSci",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"story_url": {
+				"value": "https://www.omnisci.com/blog/to-jupyter-and-beyond-data-science-with-omnisci",
+				"matchLevel": "none",
+				"matchedWords": []
+			}
+		}
+	}, {
+		"created_at": "2019-09-04T20:20:33.000Z",
+		"title": "Show HN: I have a silly pet project, can I get some input?",
+		"url": null,
+		"author": "andreigaspar",
+		"points": 11,
+		"story_text": "Last night I had a stupid idea, and wanted to check if it is technically possible. Well, it is!\u003cp\u003eIn a nutshell: Emoji support for your website\u0026#x27;s URLs.\u003cp\u003eyourwebsite.com\u0026#x2F;contact - booring\u003cp\u003eyourwebsite.com\u0026#x2F;:phoneemoji: - cool!\u003cp\u003eSo I wrote a nodejs middleware that offers emoji support for your API, with 2 lines of code. (well if you count the installation 3 lines)\u003cp\u003eHere\u0026#x27;s the project:\u003cp\u003e\u003ca href=\"https:\u0026#x2F;\u0026#x2F;www.npmjs.com\u0026#x2F;package\u0026#x2F;slashemoji\" rel=\"nofollow\"\u003ehttps:\u0026#x2F;\u0026#x2F;www.npmjs.com\u0026#x2F;package\u0026#x2F;slashemoji\u003c/a\u003e\u003cp\u003eI currently have support for the \u0026#x2F;contact and \u0026#x2F;about routes.\u003cp\u003eCan you give me some ideas of what other URLs to cover, and what emojis to link the routes to?",
+		"comment_text": null,
+		"num_comments": 17,
+		"story_id": null,
+		"story_title": null,
+		"story_url": null,
+		"parent_id": null,
+		"created_at_i": 1567628433,
+		"relevancy_score": 9044,
+		"_tags": ["story", "author_andreigaspar", "story_20881011", "show_hn"],
+		"objectID": "20881011",
+		"_highlightResult": {
+			"title": {
+				"value": "Show HN: I have a silly pet project, can I get some input?",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"author": {
+				"value": "andreigaspar",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"story_text": {
+				"value": "Last night I had a stupid idea, and wanted to check if it is technically possible. Well, it is!\u003cp\u003eIn a nutshell: Emoji support for your website's URLs.\u003cp\u003eyourwebsite.com/contact - booring\u003cp\u003eyourwebsite.com/:phoneemoji: - cool!\u003cp\u003eSo I wrote a \u003cem\u003enodejs\u003c/em\u003e middleware that offers emoji support for your API, with 2 lines of code. (well if you count the installation 3 lines)\u003cp\u003eHere's the project:\u003cp\u003e\u003ca href=\"https://www.npmjs.com/package/slashemoji\" rel=\"nofollow\"\u003ehttps://www.npmjs.com/package/slashemoji\u003c/a\u003e\u003cp\u003eI currently have support for the /contact and /about routes.\u003cp\u003eCan you give me some ideas of what other URLs to cover, and what emojis to link the routes to?",
+				"matchLevel": "full",
+				"fullyHighlighted": false,
+				"matchedWords": ["nodejs"]
+			}
+		}
+	}, {
+		"created_at": "2019-09-04T18:07:08.000Z",
+		"title": null,
+		"url": null,
+		"author": "josteink",
+		"points": null,
+		"story_text": null,
+		"comment_text": "\u0026gt; I think the plan was to get high performance stuff into the browser, with languages like C\u0026#x2F;C++ and Rust and not to replace JS with Python, C# or Java.\u003cp\u003eOn the contrary, for many people performance isn’t a factor, but they find the idea of using the same language (and thus code) client-side and server-side appealing.\u003cp\u003eThis was one of the key features and benefits of NodeJS, and I won’t be surprised when I see others trying to replicate the experience via web-assembly.",
+		"num_comments": null,
+		"story_id": 20877998,
+		"story_title": "Debugging WebAssembly",
+		"story_url": "https://hacks.mozilla.org/2019/09/debugging-webassembly-outside-of-the-browser/",
+		"parent_id": 20879705,
+		"created_at_i": 1567620428,
+		"relevancy_score": 9043,
+		"_tags": ["comment", "author_josteink", "story_20877998"],
+		"objectID": "20879829",
+		"_highlightResult": {
+			"author": {
+				"value": "josteink",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"comment_text": {
+				"value": "\u0026gt; I think the plan was to get high performance stuff into the browser, with languages like C/C++ and Rust and not to replace JS with Python, C# or Java.\u003cp\u003eOn the contrary, for many people performance isn’t a factor, but they find the idea of using the same language (and thus code) client-side and server-side appealing.\u003cp\u003eThis was one of the key features and benefits of \u003cem\u003eNodeJS\u003c/em\u003e, and I won’t be surprised when I see others trying to replicate the experience via web-assembly.",
+				"matchLevel": "full",
+				"fullyHighlighted": false,
+				"matchedWords": ["nodejs"]
+			},
+			"story_title": {
+				"value": "Debugging WebAssembly",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"story_url": {
+				"value": "https://hacks.mozilla.org/2019/09/debugging-webassembly-outside-of-the-browser/",
+				"matchLevel": "none",
+				"matchedWords": []
+			}
+		}
+	}, {
+		"created_at": "2019-09-04T13:48:17.000Z",
+		"title": null,
+		"url": null,
+		"author": "phil_kahrl",
+		"points": null,
+		"story_text": null,
+		"comment_text": "Updated post:\u003cp\u003eViewpath \u003ca href=\"https:\u0026#x2F;\u0026#x2F;www.viewpath.com\u0026#x2F;\" rel=\"nofollow\"\u003ehttps:\u0026#x2F;\u0026#x2F;www.viewpath.com\u0026#x2F;\u003c/a\u003e | Software Engineer | Seattle, WA | ONSITE | Fulltime\u003cp\u003eViewpath is a Software as a Service company which offers online solutions for project management.  Viewpath eliminates the chaos of of project management.\u003cp\u003eWe are  looking for a Software Engineer to join our small team.\u003cp\u003eAs an engineer on our team, you will be involved in all aspects of building out a new SaaS product for Project Management.  We are building on top the NodeJS ecosystem using ReactJS for rendering.  We are also using tools from the Encapsule Project \u003ca href=\"https:\u0026#x2F;\u0026#x2F;encapsule.io\u0026#x2F;\" rel=\"nofollow\"\u003ehttps:\u0026#x2F;\u0026#x2F;encapsule.io\u0026#x2F;\u003c/a\u003e, for Node server configuration, state management and implementing graph models.  This is a great opportunity for someone who wants to participate in building a solid, reliable and extensible web application on top of modern technologies.\u003cp\u003eWe are considering engineers from entry to mid-level with solid skills and some familiarity with both NodeJS and React.\u003cp\u003eRead the full job description and apply here: \u003ca href=\"https:\u0026#x2F;\u0026#x2F;www.viewpath.com\u0026#x2F;careers\u0026#x2F;software-engineer\u0026#x2F;\" rel=\"nofollow\"\u003ehttps:\u0026#x2F;\u0026#x2F;www.viewpath.com\u0026#x2F;careers\u0026#x2F;software-engineer\u0026#x2F;\u003c/a\u003e",
+		"num_comments": null,
+		"story_id": 20867123,
+		"story_title": "Ask HN: Who is hiring? (September 2019)",
+		"story_url": null,
+		"parent_id": 20870776,
+		"created_at_i": 1567604897,
+		"relevancy_score": 9043,
+		"_tags": ["comment", "author_phil_kahrl", "story_20867123"],
+		"objectID": "20877148",
+		"_highlightResult": {
+			"author": {
+				"value": "phil_kahrl",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"comment_text": {
+				"value": "Updated post:\u003cp\u003eViewpath \u003ca href=\"https://www.viewpath.com/\" rel=\"nofollow\"\u003ehttps://www.viewpath.com/\u003c/a\u003e | Software Engineer | Seattle, WA | ONSITE | Fulltime\u003cp\u003eViewpath is a Software as a Service company which offers online solutions for project management.  Viewpath eliminates the chaos of of project management.\u003cp\u003eWe are  looking for a Software Engineer to join our small team.\u003cp\u003eAs an engineer on our team, you will be involved in all aspects of building out a new SaaS product for Project Management.  We are building on top the \u003cem\u003eNodeJS\u003c/em\u003e ecosystem using ReactJS for rendering.  We are also using tools from the Encapsule Project \u003ca href=\"https://encapsule.io/\" rel=\"nofollow\"\u003ehttps://encapsule.io/\u003c/a\u003e, for Node server configuration, state management and implementing graph models.  This is a great opportunity for someone who wants to participate in building a solid, reliable and extensible web application on top of modern technologies.\u003cp\u003eWe are considering engineers from entry to mid-level with solid skills and some familiarity with both \u003cem\u003eNodeJS\u003c/em\u003e and React.\u003cp\u003eRead the full job description and apply here: \u003ca href=\"https://www.viewpath.com/careers/software-engineer/\" rel=\"nofollow\"\u003ehttps://www.viewpath.com/careers/software-engineer/\u003c/a\u003e",
+				"matchLevel": "full",
+				"fullyHighlighted": false,
+				"matchedWords": ["nodejs"]
+			},
+			"story_title": {
+				"value": "Ask HN: Who is hiring? (September 2019)",
+				"matchLevel": "none",
+				"matchedWords": []
+			}
+		}
+	}, {
+		"created_at": "2019-09-04T09:44:45.000Z",
+		"title": null,
+		"url": null,
+		"author": "surfgreen_dev",
+		"points": null,
+		"story_text": null,
+		"comment_text": "SEEKING WORK - REMOTE, BAVARIA, GERMANY, EU\nDid you know that if the internet would be a country, it would be on the sixth place regarding the most engery consuming countries on earth?\u003cp\u003eI am specialised on green and sustainable web development, to reduce the carbon dioxid footprint of your website or web application by applying state of the art frontend technologies that enhances the performance of your website.\u003cp\u003eI have +10 years of experience in full stack web development, product\u0026#x2F;project mgmt for top e-commerce and publishing companies as well as startups in Germany.\u003cp\u003eMy Services:\u003cp\u003e* Wordpress\u0026#x2F;WooCommerce Development\u003cp\u003e* HTML, SCSS, CSS, Vanilla Javascript, jQuery\u003cp\u003e* ReactJS \u0026#x2F; VueJS \u0026#x2F; NuxtJS\u003cp\u003e* Google Cloud \u0026#x2F; AWS\u003cp\u003e* Serverless Architecture\u003cp\u003e* Python + Python Django\u003cp\u003e* REST APIs\u003cp\u003e* NodeJS\u003cp\u003e* Headless CMS\u003cp\u003e* Postgres, MongoDB, etc.\u003cp\u003e* Technical SEO\u003cp\u003e* Progressive Web Apps with Service Workers\u003cp\u003e* GDPR Integration\u003cp\u003e* Consulting \u0026#x2F; Leadership of Dev Teams \u0026#x2F; Product Ownership\u003cp\u003e* Heavy experience in E-Commerce, Conversion Optimization, Performance Optimization\u003cp\u003e* Demandware \u0026#x2F; Salesforce Commerce Cloud\u003cp\u003eExample Work, Service Overview, Portfolio, CV, Rates and Prices upon request:\u003cp\u003ecarl(at)surfgreen.dev\u003cp\u003eStartups and sustainable companies get a special discount.\u003cp\u003eFor every project, I plant trees in Germany or Nicaragua based on the project\u0026#x27;s revenue.",
+		"num_comments": null,
+		"story_id": 20867122,
+		"story_title": "Ask HN: Freelancer? Seeking Freelancer? (September 2019)",
+		"story_url": null,
+		"parent_id": 20867122,
+		"created_at_i": 1567590285,
+		"relevancy_score": 9043,
+		"_tags": ["comment", "author_surfgreen_dev", "story_20867122"],
+		"objectID": "20875506",
+		"_highlightResult": {
+			"author": {
+				"value": "surfgreen_dev",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"comment_text": {
+				"value": "SEEKING WORK - REMOTE, BAVARIA, GERMANY, EU\nDid you know that if the internet would be a country, it would be on the sixth place regarding the most engery consuming countries on earth?\u003cp\u003eI am specialised on green and sustainable web development, to reduce the carbon dioxid footprint of your website or web application by applying state of the art frontend technologies that enhances the performance of your website.\u003cp\u003eI have +10 years of experience in full stack web development, product/project mgmt for top e-commerce and publishing companies as well as startups in Germany.\u003cp\u003eMy Services:\u003cp\u003e* Wordpress/WooCommerce Development\u003cp\u003e* HTML, SCSS, CSS, Vanilla Javascript, jQuery\u003cp\u003e* ReactJS / VueJS / NuxtJS\u003cp\u003e* Google Cloud / AWS\u003cp\u003e* Serverless Architecture\u003cp\u003e* Python + Python Django\u003cp\u003e* REST APIs\u003cp\u003e* \u003cem\u003eNodeJS\u003c/em\u003e\u003cp\u003e* Headless CMS\u003cp\u003e* Postgres, MongoDB, etc.\u003cp\u003e* Technical SEO\u003cp\u003e* Progressive Web Apps with Service Workers\u003cp\u003e* GDPR Integration\u003cp\u003e* Consulting / Leadership of Dev Teams / Product Ownership\u003cp\u003e* Heavy experience in E-Commerce, Conversion Optimization, Performance Optimization\u003cp\u003e* Demandware / Salesforce Commerce Cloud\u003cp\u003eExample Work, Service Overview, Portfolio, CV, Rates and Prices upon request:\u003cp\u003ecarl(at)surfgreen.dev\u003cp\u003eStartups and sustainable companies get a special discount.\u003cp\u003eFor every project, I plant trees in Germany or Nicaragua based on the project's revenue.",
+				"matchLevel": "full",
+				"fullyHighlighted": false,
+				"matchedWords": ["nodejs"]
+			},
+			"story_title": {
+				"value": "Ask HN: Freelancer? Seeking Freelancer? (September 2019)",
+				"matchLevel": "none",
+				"matchedWords": []
+			}
+		}
+	}, {
+		"created_at": "2019-09-04T08:40:16.000Z",
+		"title": null,
+		"url": null,
+		"author": "azdv",
+		"points": null,
+		"story_text": null,
+		"comment_text": "SEEKING WORK - REMOTE\u003cp\u003eHighly experienced VP of Engineering \u0026amp; Blockchain consultant.\nSkills:\u003cp\u003e* Crypto\u0026#x2F;Blockchain - building Crypto infrastructure (multiple Blockchains), customized libraries and APIs, as well as front-end (MetaMask) solutions - Highly motivated to continue working with this.\u003cp\u003e* NodeJS\u0026#x2F;Meteor\u0026#x2F;SailsJS\u003cp\u003e* Serverless (going heavy on that one)\u003cp\u003e* Cloud technologies (AWS\u0026#x2F;Azure\u0026#x2F;GCP)\u003cp\u003e* Wordpress\u0026#x2F;CodeIgniter\u0026#x2F;Yii\u0026#x2F;Drupal (Components, Hacks, Themes) - less motivated, unless truly cutting edge (or WP VIP projects)\u003cp\u003e* CI \u0026amp; Unit testing - Jenkins, Mocha \u0026amp; Karma for JS, Toast for PHP, as well as Selenium\u003cp\u003e* Django (general Python too) - to a lesser extent\u003cp\u003eSeeking: Challenging projects. Most recently worked extensively with Serverless \u0026amp; AWS APIs, building cloud-related prototypes, before that worked as an AngularJS specialist.\u003cp\u003eExample work: Upon request\u003cp\u003eLocation: EU\u003cp\u003eContact: dev (at) azdv.co",
+		"num_comments": null,
+		"story_id": 20867122,
+		"story_title": "Ask HN: Freelancer? Seeking Freelancer? (September 2019)",
+		"story_url": null,
+		"parent_id": 20867122,
+		"created_at_i": 1567586416,
+		"relevancy_score": 9043,
+		"_tags": ["comment", "author_azdv", "story_20867122"],
+		"objectID": "20875192",
+		"_highlightResult": {
+			"author": {
+				"value": "azdv",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"comment_text": {
+				"value": "SEEKING WORK - REMOTE\u003cp\u003eHighly experienced VP of Engineering \u0026amp; Blockchain consultant.\nSkills:\u003cp\u003e* Crypto/Blockchain - building Crypto infrastructure (multiple Blockchains), customized libraries and APIs, as well as front-end (MetaMask) solutions - Highly motivated to continue working with this.\u003cp\u003e* \u003cem\u003eNodeJS\u003c/em\u003e/Meteor/SailsJS\u003cp\u003e* Serverless (going heavy on that one)\u003cp\u003e* Cloud technologies (AWS/Azure/GCP)\u003cp\u003e* Wordpress/CodeIgniter/Yii/Drupal (Components, Hacks, Themes) - less motivated, unless truly cutting edge (or WP VIP projects)\u003cp\u003e* CI \u0026amp; Unit testing - Jenkins, Mocha \u0026amp; Karma for JS, Toast for PHP, as well as Selenium\u003cp\u003e* Django (general Python too) - to a lesser extent\u003cp\u003eSeeking: Challenging projects. Most recently worked extensively with Serverless \u0026amp; AWS APIs, building cloud-related prototypes, before that worked as an AngularJS specialist.\u003cp\u003eExample work: Upon request\u003cp\u003eLocation: EU\u003cp\u003eContact: dev (at) azdv.co",
+				"matchLevel": "full",
+				"fullyHighlighted": false,
+				"matchedWords": ["nodejs"]
+			},
+			"story_title": {
+				"value": "Ask HN: Freelancer? Seeking Freelancer? (September 2019)",
+				"matchLevel": "none",
+				"matchedWords": []
+			}
+		}
+	}, {
+		"created_at": "2019-09-04T08:39:53.000Z",
+		"title": null,
+		"url": null,
+		"author": "azdv",
+		"points": null,
+		"story_text": null,
+		"comment_text": "Location: EU (changes frequently)\u003cp\u003eRemote: Yes !\u003cp\u003eWilling to relocate: Maybe\u003cp\u003eTechnologies:\u003cp\u003e* Crypto\u0026#x2F;Blockchain - building Crypto infrastructure (multiple Blockchains), customized libraries and APIs, as well as front-end (MetaMask) solutions - Highly motivated to continue working with this.\u003cp\u003e* NodeJS\u0026#x2F;Meteor\u0026#x2F;SailsJS\u003cp\u003e* Serverless (going heavy on that one)\u003cp\u003e* Cloud technologies (AWS\u0026#x2F;Azure\u0026#x2F;GCP)\u003cp\u003e* Wordpress\u0026#x2F;CodeIgniter\u0026#x2F;Yii\u0026#x2F;Drupal (Components, Hacks, Themes) - less motivated, unless truly cutting edge (or WP VIP projects)\u003cp\u003e* CI \u0026amp; Unit testing - Jenkins, Mocha \u0026amp; Karma for JS, Toast for PHP, as well as Selenium\u003cp\u003e* Django (general Python too) - to a lesser extent\u003cp\u003eResume: Upon request\u003cp\u003eEmail: dev (at) azdv.co\u003cp\u003eLooking for Challenging projects. Most recently worked extensively with Serverless \u0026amp; AWS APIs, building cloud-related prototypes, before that worked as an AngularJS specialist",
+		"num_comments": null,
+		"story_id": 20867121,
+		"story_title": "Ask HN: Who wants to be hired? (September 2019)",
+		"story_url": null,
+		"parent_id": 20867121,
+		"created_at_i": 1567586393,
+		"relevancy_score": 9043,
+		"_tags": ["comment", "author_azdv", "story_20867121"],
+		"objectID": "20875189",
+		"_highlightResult": {
+			"author": {
+				"value": "azdv",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"comment_text": {
+				"value": "Location: EU (changes frequently)\u003cp\u003eRemote: Yes !\u003cp\u003eWilling to relocate: Maybe\u003cp\u003eTechnologies:\u003cp\u003e* Crypto/Blockchain - building Crypto infrastructure (multiple Blockchains), customized libraries and APIs, as well as front-end (MetaMask) solutions - Highly motivated to continue working with this.\u003cp\u003e* \u003cem\u003eNodeJS\u003c/em\u003e/Meteor/SailsJS\u003cp\u003e* Serverless (going heavy on that one)\u003cp\u003e* Cloud technologies (AWS/Azure/GCP)\u003cp\u003e* Wordpress/CodeIgniter/Yii/Drupal (Components, Hacks, Themes) - less motivated, unless truly cutting edge (or WP VIP projects)\u003cp\u003e* CI \u0026amp; Unit testing - Jenkins, Mocha \u0026amp; Karma for JS, Toast for PHP, as well as Selenium\u003cp\u003e* Django (general Python too) - to a lesser extent\u003cp\u003eResume: Upon request\u003cp\u003eEmail: dev (at) azdv.co\u003cp\u003eLooking for Challenging projects. Most recently worked extensively with Serverless \u0026amp; AWS APIs, building cloud-related prototypes, before that worked as an AngularJS specialist",
+				"matchLevel": "full",
+				"fullyHighlighted": false,
+				"matchedWords": ["nodejs"]
+			},
+			"story_title": {
+				"value": "Ask HN: Who wants to be hired? (September 2019)",
+				"matchLevel": "none",
+				"matchedWords": []
+			}
+		}
+	}, {
+		"created_at": "2019-09-04T06:20:26.000Z",
+		"title": null,
+		"url": null,
+		"author": "sjwright",
+		"points": null,
+		"story_text": null,
+		"comment_text": "Rust is challenging C++ fairly head-on.\u003cp\u003eGolang is challenging Java, C#, Python, nodejs etc. It was also supposed to challenge C++ but based on how the language turned out, if that is ever true then C++ probably wasn\u0026#x27;t the right language for that project in the first place...",
+		"num_comments": null,
+		"story_id": 20867720,
+		"story_title": "Mozilla’s Manifest v3 FAQ",
+		"story_url": "https://blog.mozilla.org/addons/2019/09/03/mozillas-manifest-v3-faq/",
+		"parent_id": 20873825,
+		"created_at_i": 1567578026,
+		"relevancy_score": 9043,
+		"_tags": ["comment", "author_sjwright", "story_20867720"],
+		"objectID": "20874509",
+		"_highlightResult": {
+			"author": {
+				"value": "sjwright",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"comment_text": {
+				"value": "Rust is challenging C++ fairly head-on.\u003cp\u003eGolang is challenging Java, C#, Python, \u003cem\u003enodejs\u003c/em\u003e etc. It was also supposed to challenge C++ but based on how the language turned out, if that is ever true then C++ probably wasn't the right language for that project in the first place...",
+				"matchLevel": "full",
+				"fullyHighlighted": false,
+				"matchedWords": ["nodejs"]
+			},
+			"story_title": {
+				"value": "Mozilla’s Manifest v3 FAQ",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"story_url": {
+				"value": "https://blog.mozilla.org/addons/2019/09/03/mozillas-manifest-v3-faq/",
+				"matchLevel": "none",
+				"matchedWords": []
+			}
+		}
+	}, {
+		"created_at": "2019-09-04T05:47:15.000Z",
+		"title": null,
+		"url": null,
+		"author": "shubhankar65",
+		"points": null,
+		"story_text": null,
+		"comment_text": "Location: Anywhere\nRemote: Yes\nWilling to relocate: Yes\nTechnologies: Nodejs and Rails for server, React, Angular for frontend\u003cp\u003eRésumé\u0026#x2F;CV: \u003ca href=\"https:\u0026#x2F;\u0026#x2F;shubhankardas.me\" rel=\"nofollow\"\u003ehttps:\u0026#x2F;\u0026#x2F;shubhankardas.me\u003c/a\u003e\nEmail:shubh065@gmail.com",
+		"num_comments": null,
+		"story_id": 20867121,
+		"story_title": "Ask HN: Who wants to be hired? (September 2019)",
+		"story_url": null,
+		"parent_id": 20867121,
+		"created_at_i": 1567576035,
+		"relevancy_score": 9043,
+		"_tags": ["comment", "author_shubhankar65", "story_20867121"],
+		"objectID": "20874349",
+		"_highlightResult": {
+			"author": {
+				"value": "shubhankar65",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"comment_text": {
+				"value": "Location: Anywhere\nRemote: Yes\nWilling to relocate: Yes\nTechnologies: \u003cem\u003eNodejs\u003c/em\u003e and Rails for server, React, Angular for frontend\u003cp\u003eRésumé/CV: \u003ca href=\"https://shubhankardas.me\" rel=\"nofollow\"\u003ehttps://shubhankardas.me\u003c/a\u003e\nEmail:shubh065@gmail.com",
+				"matchLevel": "full",
+				"fullyHighlighted": false,
+				"matchedWords": ["nodejs"]
+			},
+			"story_title": {
+				"value": "Ask HN: Who wants to be hired? (September 2019)",
+				"matchLevel": "none",
+				"matchedWords": []
+			}
+		}
+	}, {
+		"created_at": "2019-09-04T05:09:57.000Z",
+		"title": null,
+		"url": null,
+		"author": "evc",
+		"points": null,
+		"story_text": null,
+		"comment_text": "Location: Almaty, Kazakhstan\u003cp\u003eRemote: Yes\u003cp\u003eWilling to relocate: Yes\u003cp\u003eTechnologies: React, React-Native, NodeJS, GraphQL, MongoDB\u003cp\u003eRésumé\u0026#x2F;CV: \u003ca href=\"http:\u0026#x2F;\u0026#x2F;stackoverflow.com\u0026#x2F;cv\u0026#x2F;medet\" rel=\"nofollow\"\u003ehttp:\u0026#x2F;\u0026#x2F;stackoverflow.com\u0026#x2F;cv\u0026#x2F;medet\u003c/a\u003e\u003cp\u003eEmail: m.tleukabiluly@gmail.com\u003cp\u003eGithub: \u003ca href=\"https:\u0026#x2F;\u0026#x2F;github.com\u0026#x2F;vko-online\" rel=\"nofollow\"\u003ehttps:\u0026#x2F;\u0026#x2F;github.com\u0026#x2F;vko-online\u003c/a\u003e\u003cp\u003eStackoverflow: \u003ca href=\"https:\u0026#x2F;\u0026#x2F;stackoverflow.com\u0026#x2F;users\u0026#x2F;2308005\u0026#x2F;medet-tleukabiluly\" rel=\"nofollow\"\u003ehttps:\u0026#x2F;\u0026#x2F;stackoverflow.com\u0026#x2F;users\u0026#x2F;2308005\u0026#x2F;medet-tleukabiluly\u003c/a\u003e",
+		"num_comments": null,
+		"story_id": 20867121,
+		"story_title": "Ask HN: Who wants to be hired? (September 2019)",
+		"story_url": null,
+		"parent_id": 20867121,
+		"created_at_i": 1567573797,
+		"relevancy_score": 9043,
+		"_tags": ["comment", "author_evc", "story_20867121"],
+		"objectID": "20874170",
+		"_highlightResult": {
+			"author": {
+				"value": "evc",
+				"matchLevel": "none",
+				"matchedWords": []
+			},
+			"comment_text": {
+				"value": "Location: Almaty, Kazakhstan\u003cp\u003eRemote: Yes\u003cp\u003eWilling to relocate: Yes\u003cp\u003eTechnologies: React, React-Native, \u003cem\u003eNodeJS\u003c/em\u003e, GraphQL, MongoDB\u003cp\u003eRésumé/CV: \u003ca href=\"http://stackoverflow.com/cv/medet\" rel=\"nofollow\"\u003ehttp://stackoverflow.com/cv/medet\u003c/a\u003e\u003cp\u003eEmail: m.tleukabiluly@gmail.com\u003cp\u003eGithub: \u003ca href=\"https://github.com/vko-online\" rel=\"nofollow\"\u003ehttps://github.com/vko-online\u003c/a\u003e\u003cp\u003eStackoverflow: \u003ca href=\"https://stackoverflow.com/users/2308005/medet-tleukabiluly\" rel=\"nofollow\"\u003ehttps://stackoverflow.com/users/2308005/medet-tleukabiluly\u003c/a\u003e",
+				"matchLevel": "full",
+				"fullyHighlighted": false,
+				"matchedWords": ["nodejs"]
+			},
+			"story_title": {
+				"value": "Ask HN: Who wants to be hired? (September 2019)",
+				"matchLevel": "none",
+				"matchedWords": []
+			}
+		}
+	}],
+	"nbHits": 13084,
+	"page": 0,
+	"nbPages": 50,
+	"hitsPerPage": 20,
+	"processingTimeMS": 8,
+	"exhaustiveNbHits": false,
+	"query": "nodejs",
+	"params": "advancedSyntax=true\u0026analytics=false\u0026query=nodejs"
 }
