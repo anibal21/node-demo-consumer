@@ -1,47 +1,54 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 import Table from '@material-ui/core/Table'
-import TableHead from '@material-ui/core/TableHead'
 import TableBody from '@material-ui/core/TableBody'
 import TableRow from '@material-ui/core/TableRow'
 import TableCell from '@material-ui/core/TableCell'
+import IconButton from '@material-ui/core/IconButton'
+import DeleteIcon from '@material-ui/icons/Delete'
 
-function createData(name: string, calories: number, fat: number, carbs: number, protein: number) {
-    return { name, calories, fat, carbs, protein };
+import { postStyles } from './styles'
+
+function createData(name: string, calories: number, fat: number) {
+    return { name, calories, fat};
 }
 
 const rows = [
-    createData('Frozen yoghurt', 159, 6.0, 24, 4.0),
-    createData('Ice cream sandwich', 237, 9.0, 37, 4.3),
-    createData('Eclair', 262, 16.0, 24, 6.0),
-    createData('Cupcake', 305, 3.7, 67, 4.3),
-    createData('Gingerbread', 356, 16.0, 49, 3.9),
+    createData('Frozen yoghurt', 159, 1),
+    createData('Ice cream sandwich', 237, 1),
+    createData('Eclair', 262, 1),
+    createData('Cupcake', 305, 1),
+    createData('Gingerbread', 356, 1),
 ];
 
 
-const Post = () => <Table >
-    <TableHead>
-        <TableRow>
-            <TableCell>Dessert (100g serving)</TableCell>
-            <TableCell align="right">Calories</TableCell>
-            <TableCell align="right">Fat&nbsp;(g)</TableCell>
-            <TableCell align="right">Carbs&nbsp;(g)</TableCell>
-            <TableCell align="right">Protein&nbsp;(g)</TableCell>
-        </TableRow>
-    </TableHead>
-    <TableBody>
-        {rows.map(row => (
-            <TableRow key={row.name}>
-                <TableCell component="th" scope="row">
-                    {row.name}
-                </TableCell>
-                <TableCell align="right">{row.calories}</TableCell>
-                <TableCell align="right">{row.fat}</TableCell>
-                <TableCell align="right">{row.carbs}</TableCell>
-                <TableCell align="right">{row.protein}</TableCell>
-            </TableRow>
-        ))}
-    </TableBody>
-</Table>
+const Post = () => {
+
+    const [values, setValues] = useState({
+        row: -1,
+    })
+
+    const classes = postStyles()
+
+    const makeVisibleHandler = (event: any) => setValues({ ...values, row: parseInt(event.currentTarget.id) })
+    const makeInvisibleHandler = () => setValues({ ...values, row: -1 })
+
+    return <Table className={classes.container} onMouseLeave={makeInvisibleHandler}>
+        <TableBody>
+            {rows.map((row: any,index: any) => (
+                <TableRow hover={true} key={row.name} onMouseOver={makeVisibleHandler} id={index}>
+                    <TableCell align="left">{row.name}</TableCell>
+                    <TableCell align="right">{row.calories}</TableCell>
+                    <TableCell align="right" >
+                <IconButton aria-label="delete" size="small" className={values.row === index ? classes.visibleDeleteicon : classes.invisibleDeleteicon}>
+                            <DeleteIcon fontSize="small" />
+                        </IconButton>
+                    </TableCell>
+
+                </TableRow>
+            ))}
+        </TableBody>
+    </Table>
+}
 
 export default Post
