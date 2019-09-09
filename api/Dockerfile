@@ -35,7 +35,7 @@ ENV NPM_CONFIG_LOGLEVEL warn
 RUN npm install --production
 
 # Expose ports needed to use Keymetrics.io
-EXPOSE 443 43554 5000
+EXPOSE 443 43554 5000/tcp 5000
 
 # Start pm2.json process file
 CMD ["pm2-runtime", "start", "pm2.json"]

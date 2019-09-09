@@ -28,22 +28,115 @@
     "/api/posts": {
       "get": {
         "tags": ["posts"],
-        "summary": "Endpoint to manage posts",
+        "summary": "Endpoint to get all posts",
         "responses": {
           "200": {
             "description": "successful operation",
             "content": {
-              "application/json": {}
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/PostResponse"
+                  }
+                }
+              }
             }
           },
-          "401": {
-            "description": "server error",
+          "403": {
+            "description": "param error",
             "content": {
               "application/json": {
                 "schema": {
                   "$ref": "#/components/schemas/ErrorResponse"
                 }
               }
+            }
+          },
+          "404": {
+            "description": "path api not found",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ErrorResponse"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "internal server error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ErrorResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/posts/refresh": {
+      "post": {
+        "tags": ["posts"],
+        "summary": "Endpoint to manage posts",
+        "responses": {
+          "200": {
+            "description": "successful operation"
+          },
+          "403": {
+            "description": "param error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ErrorResponse"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "path api not found",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ErrorResponse"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "internal server error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ErrorResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/posts/{id}": {
+      "delete": {
+        "tags": ["posts"],
+        "summary": "Endpoint to delete posts",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "id",
+            "schema": {
+              "type": "integer"
+            },
+            "required": true,
+            "description": "Id from post"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "successful operation",
+            "content": {
+              "application/json": {}
             }
           },
           "403": {
@@ -82,6 +175,38 @@
   },
   "components": {
     "schemas": {
+      "PostResponse": {
+        "type": "object",
+        "properties": {
+          "_id": {
+            "type": "string"
+          },
+          "objectID": {
+            "type": "number"
+          },
+          "title": {
+            "type": "string"
+          },
+          "deleted": {
+            "type": "boolean"
+          },
+          "created_at": {
+            "type": "number"
+          },
+          "author": {
+            "type": "string"
+          },
+          "url": {
+            "type": "string"
+          },
+          "__v": {
+            "type": "number"
+          }
+        },
+        "xml": {
+          "name": "PostResponse"
+        }
+      },
       "ErrorResponse": {
         "type": "object",
         "properties": {

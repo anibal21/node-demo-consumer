@@ -1,23 +1,21 @@
-version: 0.0.0
+version: '3'
 services:
   api:
     container_name: api
     restart: always
     build: ./api/
     ports:
-      - "5000:5000"
-    links:
+      - '5000:5000'
+    depends_on:
       - mongo
   ui:
     container_name: ui
     restart: always
     build: ./ui/
     ports:
-      - "3000:3000"
+      - '3000:3000'
   mongo:
     container_name: mongo
-    image: mongo
-    volumes:
-      - ./data:/data/db
+    image: mongo:latest
     ports:
-      - "27017:27017"
+      - '27017:27017'

@@ -16,7 +16,7 @@ postRouter.get('/', function(req, res, next) {
 });
 
 postRouter.post('/refresh', function(req, res, next) {
-  axios(HN_URL)
+  axios('https://hn.algolia.com/api/v1/search_by_date?query=nodejs')
     .then(resItems => {
       const step = getTime(new Date());
       try {
