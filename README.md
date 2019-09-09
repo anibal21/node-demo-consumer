@@ -20,4 +20,8 @@ Later, you can see the app in the next path:
 
 http://localhost:3000/
 
+And, the API Documentation in :
+
+http://localhost:5000/api/docs
+
 enjoy!
